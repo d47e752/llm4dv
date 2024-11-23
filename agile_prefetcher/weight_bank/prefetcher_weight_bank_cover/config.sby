@@ -1,0 +1,22 @@
+
+[options]
+mode cover
+depth 1000000
+vcd off
+timeout 172800
+
+[engines]
+smtbmc
+
+[script]
+read -formal top_pkg.sv
+read -formal ultraram.v
+read -formal ultraram_fifo.sv
+read -formal prefetcher_weight_bank.sv
+prep -top prefetcher_weight_bank
+
+[files]
+top_pkg.sv
+ultraram.v
+ultraram_fifo.sv
+prefetcher_weight_bank.sv

@@ -1,0 +1,20 @@
+- You provide a list of lists, in the format: [int, int, int]. The internal lists will be interpreted as sequential instructions for a DUT.
+- The DUT is an asynchronous fifo used for clock domain crossings. The pointers are in gray code, and the MSB of the pointers indicate a "wrap", used to determine whether the FIFO is empty or full.
+- The read clock has a period of 13ns, the write clock has a period of 10ns.
+- The three integers in each command will be interpreted as follows:
+    - First integer: how long to "hold" the current command in nanoseconds. The value should be between 1 and 1000.
+    - Second integer: if it is 1, read operations occur. The value should be 0 or 1.
+    - Third integer: if it is 1, write operations occur. The value should be 0 or 1.
+- You need to cover each of the following bins with your commands:
+---
+    - full_read_wrap: the read pointer wraps to 0.
+    - gray_read_wrap: the MSB of the read pointer toggles.
+    - underflow: a read operation is requested while the FIFO is empty
+    - empty: the FIFO is empty
+    - read_while_write: on read clock edge a read operation is performed, while a write operation is being requested as well
+    - full_write_wrap: the write pointer wraps to 0.
+    - gray_write_wrap: the MSB of the write pointer toggles.
+    - overflow: a write operation is requested while the FIFO is full
+    - full: the FIFO is full
+    - write_while_read: on write clock edge a write operation is performed, while a read operation is being requested as well
+---

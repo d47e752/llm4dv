@@ -1,0 +1,32 @@
+- There are 32 register files available, with index from 0 to 31.
+- Register 0 is denoted as "zero", and its content is always 0.
+- There are 14 available types of operations:
+---
+OPERATIONS
+  - R-type (format: [funct7 (7 bits)][rs2 (5 bits)][rs1 (5 bits)][funct3 (3 bits)][rd (5 bits)][op (7 bits)]):
+    - ADD (opcode: 0110011, funct3: 000, funct7: 0000000): addition between two register files
+    - SUB (opcode: 0110011, funct3: 000, funct7: 0100000): subtraction between two register files
+    - AND (opcode: 0110011, funct3: 111, funct7: 0000000): logical operation AND between two register files
+    - OR (opcode: 0110011, funct3: 110, funct7: 0000000): logical operation OR between two register files
+    - XOR (opcode: 0110011, funct3: 100, funct7: 0000000): logical operation XOR between two register files
+    - SLL (opcode: 0110011, funct3: 001, funct7: 0000000): logical shift left a register file by number of bits equal to another register file
+    - SRL (opcode: 0110011, funct3: 101, funct7: 0000000): logical shift right a register file by number of bits equal to another register file
+    - SRA (opcode: 0110011, funct3: 101, funct7: 0100000): arithmetic shift right a register file by number of bits equal to another register file
+    - SLT (opcode: 0110011, funct3: 010, funct7: 0000000): make comparison between two register files; if the first one is smaller, write 1 to a register file, otherwise write 0
+    - SLTU (opcode: 0110011, funct3: 011, funct7: 0000000): make comparison between two unsigned register files; if the first one is smaller, write 1 to a register file, otherwise write 0
+  - S-type (format: [imm[11:5] (7 bits)][rs2 (5 bits)][rs1 (5 bits)][funct3 (3 bits)][imm[4:0] (5 bits)][op (7 bits)]):
+    - SW (opcode: 0100011, funct3: 010): store a word (a 32-bit value) from a register file to the data memory at the address equal to a register file
+    - SH (opcode: 0100011, funct3: 001): store a half-word (a 16-bit value) from a register file to the data memory at the address equal to a register file
+    - SB (opcode: 0100011, funct3: 000): load a byte (an 8-bit value) from a register file to the data memory at the address equal to a register file
+  - J-type (format: [imm[20|10:1|11|19:12] (20 bits)][rd (5 bits)][op (7 bits)]):
+    - JAL (opcode: 1101111): store the address of next instruction as the return address in a register file, then jump (increase PC) by an immediate (i.e. constant value)
+---
+
+- BIN type 1: Make the CPU perform each operation at least once.
+- BIN type 2: For each R-type or J-type operation, make the CPU execute an instruction with register zero as the destination register (rd).
+- BIN type 3: For each R-type or S-type operation, make the CPU execute an instruction with register zero as one of the source registers (rs).
+- BIN type 4: For each R-type or S-type operation, make the CPU execute an instruction where both source registers are the same register file.
+- BIN type 5: For the JAL operation, make the CPU execute both forward jumps and backward jumps.
+
+- Read-after-Write (RaW) hazard: happens when the current instruction reads from a register which the previous instruction wrote to.
+- BIN type 6: For each R-type or S-type operation following an R-type or J-type operation, make the CPU execute two instructions that would cause an RaW hazard.

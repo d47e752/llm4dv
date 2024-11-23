@@ -1,0 +1,50 @@
+
+[tasks]
+cover
+
+[options]
+cover: mode cover
+cover: depth 15
+cover: vcd off
+
+[engines]
+cover: btor btormc
+
+[script]
+--pycode-begin--
+import os
+root_dir = "src"
+# Walk through all subdirectories
+for dirpath, dirnames, filenames in os.walk(root_dir):
+    # Check each file in filenames
+    for filename in filenames:
+        # Check the file extension
+        if (filename.endswith('.svh')):
+            # Print the full path of files
+            output("read -sv %s" % filename)
+# Walk through all subdirectories
+for dirpath, dirnames, filenames in os.walk(root_dir):
+    # Check each file in filenames
+    for filename in filenames:
+        # Check the file extension
+        if (filename.endswith('.sv') or filename.endswith('.v')) and not(filename == "fpu_exec.sv"):
+            # Print the full path of files
+            output("read -formal %s" % filename)
+--pycode-end--
+
+read -formal cocotb_mips.sv
+prep -top cocotb_mips
+
+[files]
+--pycode-begin--
+import os
+root_dir = "."
+# Walk through all subdirectories
+for dirpath, dirnames, filenames in os.walk(root_dir):
+    # Check each file in filenames
+    for filename in filenames:
+        # Check the file extension
+        if filename.endswith('.sv') or filename.endswith('.v') or filename.endswith('.svh'):
+            # Print the full path of files
+            output(os.path.join(dirpath, filename))
+--pycode-end--

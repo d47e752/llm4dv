@@ -1,0 +1,1056 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:53:00 (3180)
+Elapsed process time [H:MM:SS (secs)]: 3:16:13 (11773)
+engine_0 (btor btormc) returned pass
+cover trace: <trace0>
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+cover trace: <trace1>
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+cover trace: <trace10>
+  reached cover statement cocotb_mips.\JAL.br_forwards at cocotb_mips.sv:330.11-330.54 in step 3
+  reached cover statement cocotb_mips.\JAL.seen at cocotb_mips.sv:328.11-328.27 in step 3
+cover trace: <trace100>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_SLL at cocotb_mips.sv:316.13-316.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+cover trace: <trace101>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_SLT at cocotb_mips.sv:317.13-317.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace102>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_SLTU at cocotb_mips.sv:318.13-318.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace103>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_SRA at cocotb_mips.sv:321.13-321.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace104>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_SRL at cocotb_mips.sv:320.13-320.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace105>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_SUB at cocotb_mips.sv:315.13-315.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace106>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_XOR at cocotb_mips.sv:319.13-319.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace107>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_ADD at cocotb_mips.sv:296.13-296.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+cover trace: <trace108>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_AND at cocotb_mips.sv:305.13-305.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+cover trace: <trace109>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_JAL at cocotb_mips.sv:307.13-307.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+cover trace: <trace11>
+  reached cover statement cocotb_mips.\JAL.br_forwards at cocotb_mips.sv:330.11-330.54 in step 3
+  reached cover statement cocotb_mips.\JAL.seen at cocotb_mips.sv:328.11-328.27 in step 3
+cover trace: <trace110>
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_OR at cocotb_mips.sv:304.13-304.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+cover trace: <trace111>
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_SLL at cocotb_mips.sv:298.13-298.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+cover trace: <trace112>
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_SLT at cocotb_mips.sv:299.13-299.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace113>
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_SLTU at cocotb_mips.sv:300.13-300.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace114>
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_SRA at cocotb_mips.sv:303.13-303.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace115>
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_SRL at cocotb_mips.sv:302.13-302.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace116>
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_SUB at cocotb_mips.sv:297.13-297.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace117>
+  reached cover statement cocotb_mips.\RIstruction.OR.raw_XOR at cocotb_mips.sv:301.13-301.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace118>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_ADD at cocotb_mips.sv:188.13-188.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+cover trace: <trace119>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_AND at cocotb_mips.sv:197.13-197.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+cover trace: <trace12>
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_dst at cocotb_mips.sv:148.13-148.39 in step 3
+cover trace: <trace120>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_JAL at cocotb_mips.sv:199.13-199.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+cover trace: <trace121>
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_OR at cocotb_mips.sv:196.13-196.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+cover trace: <trace122>
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_SLL at cocotb_mips.sv:190.13-190.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+cover trace: <trace123>
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_SLT at cocotb_mips.sv:191.13-191.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace124>
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_SLTU at cocotb_mips.sv:192.13-192.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace125>
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_SRA at cocotb_mips.sv:195.13-195.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace126>
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_SRL at cocotb_mips.sv:194.13-194.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace127>
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_SUB at cocotb_mips.sv:189.13-189.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace128>
+  reached cover statement cocotb_mips.\RIstruction.SLL.raw_XOR at cocotb_mips.sv:193.13-193.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace129>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_ADD at cocotb_mips.sv:206.13-206.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+cover trace: <trace13>
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_dst at cocotb_mips.sv:148.13-148.39 in step 3
+cover trace: <trace130>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_AND at cocotb_mips.sv:215.13-215.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+cover trace: <trace131>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_JAL at cocotb_mips.sv:217.13-217.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+cover trace: <trace132>
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_OR at cocotb_mips.sv:214.13-214.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+cover trace: <trace133>
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_SLL at cocotb_mips.sv:208.13-208.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+cover trace: <trace134>
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_SLT at cocotb_mips.sv:209.13-209.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace135>
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_SLTU at cocotb_mips.sv:210.13-210.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace136>
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_SRA at cocotb_mips.sv:213.13-213.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace137>
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_SRL at cocotb_mips.sv:212.13-212.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace138>
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_SUB at cocotb_mips.sv:207.13-207.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace139>
+  reached cover statement cocotb_mips.\RIstruction.SLT.raw_XOR at cocotb_mips.sv:211.13-211.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace14>
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_dst at cocotb_mips.sv:148.13-148.39 in step 3
+cover trace: <trace140>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_ADD at cocotb_mips.sv:224.13-224.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+cover trace: <trace141>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_AND at cocotb_mips.sv:233.13-233.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+cover trace: <trace142>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_JAL at cocotb_mips.sv:235.13-235.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+cover trace: <trace143>
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_OR at cocotb_mips.sv:232.13-232.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+cover trace: <trace144>
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_SLL at cocotb_mips.sv:226.13-226.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+cover trace: <trace145>
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_SLT at cocotb_mips.sv:227.13-227.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+cover trace: <trace146>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_SLTU at cocotb_mips.sv:228.13-228.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace147>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_SRA at cocotb_mips.sv:231.13-231.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace148>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_SRL at cocotb_mips.sv:230.13-230.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace149>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_SUB at cocotb_mips.sv:225.13-225.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace15>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_dst at cocotb_mips.sv:148.13-148.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+cover trace: <trace150>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.raw_XOR at cocotb_mips.sv:229.13-229.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace151>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_ADD at cocotb_mips.sv:278.13-278.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+cover trace: <trace152>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_AND at cocotb_mips.sv:287.13-287.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+cover trace: <trace153>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_JAL at cocotb_mips.sv:289.13-289.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+cover trace: <trace154>
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_OR at cocotb_mips.sv:286.13-286.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+cover trace: <trace155>
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_SLL at cocotb_mips.sv:280.13-280.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+cover trace: <trace156>
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_SLT at cocotb_mips.sv:281.13-281.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+cover trace: <trace157>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_SLTU at cocotb_mips.sv:282.13-282.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+cover trace: <trace158>
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_SRA at cocotb_mips.sv:285.13-285.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace159>
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_SRL at cocotb_mips.sv:284.13-284.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace16>
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_dst at cocotb_mips.sv:310.13-310.39 in step 3
+cover trace: <trace160>
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_SUB at cocotb_mips.sv:279.13-279.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace161>
+  reached cover statement cocotb_mips.\RIstruction.SRA.raw_XOR at cocotb_mips.sv:283.13-283.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace162>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_ADD at cocotb_mips.sv:260.13-260.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+cover trace: <trace163>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_AND at cocotb_mips.sv:269.13-269.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+cover trace: <trace164>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_JAL at cocotb_mips.sv:271.13-271.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+cover trace: <trace165>
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_OR at cocotb_mips.sv:268.13-268.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+cover trace: <trace166>
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_SLL at cocotb_mips.sv:262.13-262.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+cover trace: <trace167>
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_SLT at cocotb_mips.sv:263.13-263.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+cover trace: <trace168>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_SLTU at cocotb_mips.sv:264.13-264.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+cover trace: <trace169>
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_SRA at cocotb_mips.sv:267.13-267.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+cover trace: <trace17>
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_dst at cocotb_mips.sv:310.13-310.39 in step 3
+cover trace: <trace170>
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_SRL at cocotb_mips.sv:266.13-266.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace171>
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_SUB at cocotb_mips.sv:261.13-261.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace172>
+  reached cover statement cocotb_mips.\RIstruction.SRL.raw_XOR at cocotb_mips.sv:265.13-265.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace173>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_ADD at cocotb_mips.sv:170.13-170.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace174>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_AND at cocotb_mips.sv:179.13-179.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace175>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_JAL at cocotb_mips.sv:181.13-181.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace176>
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_OR at cocotb_mips.sv:178.13-178.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace177>
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_SLL at cocotb_mips.sv:172.13-172.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace178>
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_SLT at cocotb_mips.sv:173.13-173.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace179>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_SLTU at cocotb_mips.sv:174.13-174.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace18>
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_dst at cocotb_mips.sv:310.13-310.39 in step 3
+cover trace: <trace180>
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_SRA at cocotb_mips.sv:177.13-177.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace181>
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_SRL at cocotb_mips.sv:176.13-176.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+cover trace: <trace182>
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_SUB at cocotb_mips.sv:171.13-171.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace183>
+  reached cover statement cocotb_mips.\RIstruction.SUB.raw_XOR at cocotb_mips.sv:175.13-175.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace184>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_ADD at cocotb_mips.sv:242.13-242.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace185>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_AND at cocotb_mips.sv:251.13-251.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace186>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_JAL at cocotb_mips.sv:253.13-253.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace187>
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_OR at cocotb_mips.sv:250.13-250.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace188>
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_SLL at cocotb_mips.sv:244.13-244.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace189>
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_SLT at cocotb_mips.sv:245.13-245.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace19>
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_dst at cocotb_mips.sv:310.13-310.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+cover trace: <trace190>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_SLTU at cocotb_mips.sv:246.13-246.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace191>
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_SRA at cocotb_mips.sv:249.13-249.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace192>
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_SRL at cocotb_mips.sv:248.13-248.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace193>
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_SUB at cocotb_mips.sv:243.13-243.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 4
+cover trace: <trace194>
+  reached cover statement cocotb_mips.\RIstruction.XOR.raw_XOR at cocotb_mips.sv:247.13-247.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace2>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+cover trace: <trace20>
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_dst at cocotb_mips.sv:292.13-292.39 in step 3
+cover trace: <trace21>
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_dst at cocotb_mips.sv:292.13-292.39 in step 3
+cover trace: <trace22>
+  reached cover statement cocotb_mips.\RIstruction.OR.same_src at cocotb_mips.sv:293.13-293.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_dst at cocotb_mips.sv:292.13-292.39 in step 3
+cover trace: <trace23>
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_dst at cocotb_mips.sv:292.13-292.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+cover trace: <trace24>
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_dst at cocotb_mips.sv:184.13-184.39 in step 3
+cover trace: <trace25>
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_dst at cocotb_mips.sv:184.13-184.39 in step 3
+cover trace: <trace26>
+  reached cover statement cocotb_mips.\RIstruction.SLL.same_src at cocotb_mips.sv:185.13-185.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_dst at cocotb_mips.sv:184.13-184.39 in step 3
+cover trace: <trace27>
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_dst at cocotb_mips.sv:184.13-184.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+cover trace: <trace28>
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_dst at cocotb_mips.sv:202.13-202.39 in step 3
+cover trace: <trace29>
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_dst at cocotb_mips.sv:202.13-202.39 in step 3
+cover trace: <trace3>
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SH.zero_src at cocotb_mips.sv:354.11-354.48 in step 3
+cover trace: <trace30>
+  reached cover statement cocotb_mips.\RIstruction.SLT.same_src at cocotb_mips.sv:203.13-203.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_dst at cocotb_mips.sv:202.13-202.39 in step 3
+cover trace: <trace31>
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_dst at cocotb_mips.sv:202.13-202.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace32>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_dst at cocotb_mips.sv:220.13-220.39 in step 3
+cover trace: <trace33>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_dst at cocotb_mips.sv:220.13-220.39 in step 3
+cover trace: <trace34>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.same_src at cocotb_mips.sv:221.13-221.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_dst at cocotb_mips.sv:220.13-220.39 in step 3
+cover trace: <trace35>
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_dst at cocotb_mips.sv:220.13-220.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace36>
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_dst at cocotb_mips.sv:274.13-274.39 in step 3
+cover trace: <trace37>
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_dst at cocotb_mips.sv:274.13-274.39 in step 3
+cover trace: <trace38>
+  reached cover statement cocotb_mips.\RIstruction.SRA.same_src at cocotb_mips.sv:275.13-275.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_dst at cocotb_mips.sv:274.13-274.39 in step 3
+cover trace: <trace39>
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_dst at cocotb_mips.sv:274.13-274.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace4>
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SH.zero_src at cocotb_mips.sv:354.11-354.48 in step 3
+cover trace: <trace40>
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_dst at cocotb_mips.sv:256.13-256.39 in step 3
+cover trace: <trace41>
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_dst at cocotb_mips.sv:256.13-256.39 in step 3
+cover trace: <trace42>
+  reached cover statement cocotb_mips.\RIstruction.SRL.same_src at cocotb_mips.sv:257.13-257.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_dst at cocotb_mips.sv:256.13-256.39 in step 3
+cover trace: <trace43>
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_dst at cocotb_mips.sv:256.13-256.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace44>
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_dst at cocotb_mips.sv:166.13-166.39 in step 3
+cover trace: <trace45>
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_dst at cocotb_mips.sv:166.13-166.39 in step 3
+cover trace: <trace46>
+  reached cover statement cocotb_mips.\RIstruction.SUB.same_src at cocotb_mips.sv:167.13-167.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_dst at cocotb_mips.sv:166.13-166.39 in step 3
+cover trace: <trace47>
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_dst at cocotb_mips.sv:166.13-166.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace48>
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_dst at cocotb_mips.sv:238.13-238.39 in step 3
+cover trace: <trace49>
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_dst at cocotb_mips.sv:238.13-238.39 in step 3
+cover trace: <trace5>
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SH.zero_src at cocotb_mips.sv:354.11-354.48 in step 3
+cover trace: <trace50>
+  reached cover statement cocotb_mips.\RIstruction.XOR.same_src at cocotb_mips.sv:239.13-239.40 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_dst at cocotb_mips.sv:238.13-238.39 in step 3
+cover trace: <trace51>
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_dst at cocotb_mips.sv:238.13-238.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace52>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_ADD at cocotb_mips.sv:339.11-339.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_dst at cocotb_mips.sv:148.13-148.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+cover trace: <trace53>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_AND at cocotb_mips.sv:348.11-348.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_dst at cocotb_mips.sv:310.13-310.39 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+cover trace: <trace54>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_JAL at cocotb_mips.sv:350.11-350.75 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in steps 3, 4
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+cover trace: <trace55>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_OR at cocotb_mips.sv:347.11-347.110 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+cover trace: <trace56>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_SLL at cocotb_mips.sv:341.11-341.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+cover trace: <trace57>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_SLT at cocotb_mips.sv:342.11-342.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace58>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_SLTU at cocotb_mips.sv:343.11-343.112 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace59>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_SRA at cocotb_mips.sv:346.11-346.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace6>
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SW.zero_src at cocotb_mips.sv:371.11-371.48 in step 3
+cover trace: <trace60>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_SRL at cocotb_mips.sv:345.11-345.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace61>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_SUB at cocotb_mips.sv:340.11-340.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace62>
+  reached cover statement cocotb_mips.\IIstruction.SB.raw_XOR at cocotb_mips.sv:344.11-344.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.same_src at cocotb_mips.sv:336.11-336.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace63>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_ADD at cocotb_mips.sv:356.11-356.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+cover trace: <trace64>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_AND at cocotb_mips.sv:365.11-365.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+cover trace: <trace65>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_JAL at cocotb_mips.sv:367.11-367.75 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+cover trace: <trace66>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_OR at cocotb_mips.sv:364.11-364.110 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+cover trace: <trace67>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_SLL at cocotb_mips.sv:358.11-358.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+cover trace: <trace68>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_SLT at cocotb_mips.sv:359.11-359.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace69>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_SLTU at cocotb_mips.sv:360.11-360.112 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace7>
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SW.zero_src at cocotb_mips.sv:371.11-371.48 in step 3
+cover trace: <trace70>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_SRA at cocotb_mips.sv:363.11-363.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace71>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_SRL at cocotb_mips.sv:362.11-362.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace72>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_SUB at cocotb_mips.sv:357.11-357.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace73>
+  reached cover statement cocotb_mips.\IIstruction.SH.raw_XOR at cocotb_mips.sv:361.11-361.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.same_src at cocotb_mips.sv:353.11-353.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SH.seen at cocotb_mips.sv:352.11-352.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace74>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_ADD at cocotb_mips.sv:373.11-373.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+cover trace: <trace75>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_AND at cocotb_mips.sv:382.11-382.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+cover trace: <trace76>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_JAL at cocotb_mips.sv:384.11-384.75 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+cover trace: <trace77>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_OR at cocotb_mips.sv:381.11-381.110 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+cover trace: <trace78>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_SLL at cocotb_mips.sv:375.11-375.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+cover trace: <trace79>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_SLT at cocotb_mips.sv:376.11-376.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace8>
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SW.zero_src at cocotb_mips.sv:371.11-371.48 in step 3
+cover trace: <trace80>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_SLTU at cocotb_mips.sv:377.11-377.112 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace81>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_SRA at cocotb_mips.sv:380.11-380.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace82>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_SRL at cocotb_mips.sv:379.11-379.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace83>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_SUB at cocotb_mips.sv:374.11-374.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace84>
+  reached cover statement cocotb_mips.\IIstruction.SW.raw_XOR at cocotb_mips.sv:378.11-378.111 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.same_src at cocotb_mips.sv:370.11-370.38 in step 4
+  reached cover statement cocotb_mips.\IIstruction.SW.seen at cocotb_mips.sv:369.11-369.27 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace85>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_ADD at cocotb_mips.sv:152.13-152.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+cover trace: <trace86>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_AND at cocotb_mips.sv:161.13-161.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+cover trace: <trace87>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_JAL at cocotb_mips.sv:163.13-163.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+cover trace: <trace88>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_OR at cocotb_mips.sv:160.13-160.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3
+cover trace: <trace89>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_SLL at cocotb_mips.sv:154.13-154.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLL.seen at cocotb_mips.sv:183.13-183.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLL.zero_src at cocotb_mips.sv:186.13-186.50 in step 3
+cover trace: <trace9>
+  reached cover statement cocotb_mips.\JAL.br_backwards at cocotb_mips.sv:329.11-329.55 in step 3
+  reached cover statement cocotb_mips.\JAL.seen at cocotb_mips.sv:328.11-328.27 in step 3
+cover trace: <trace90>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_SLT at cocotb_mips.sv:155.13-155.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLT.seen at cocotb_mips.sv:201.13-201.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLT.zero_src at cocotb_mips.sv:204.13-204.50 in step 3
+cover trace: <trace91>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_SLTU at cocotb_mips.sv:156.13-156.114 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SLTU.seen at cocotb_mips.sv:219.13-219.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SLTU.zero_src at cocotb_mips.sv:222.13-222.50 in step 3
+cover trace: <trace92>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_SRA at cocotb_mips.sv:159.13-159.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRA.seen at cocotb_mips.sv:273.13-273.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRA.zero_src at cocotb_mips.sv:276.13-276.50 in step 3
+cover trace: <trace93>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_SRL at cocotb_mips.sv:158.13-158.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SRL.seen at cocotb_mips.sv:255.13-255.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SRL.zero_src at cocotb_mips.sv:258.13-258.50 in step 3
+cover trace: <trace94>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_SUB at cocotb_mips.sv:153.13-153.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.SUB.seen at cocotb_mips.sv:165.13-165.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.SUB.zero_src at cocotb_mips.sv:168.13-168.50 in step 3
+cover trace: <trace95>
+  reached cover statement cocotb_mips.\RIstruction.ADD.raw_XOR at cocotb_mips.sv:157.13-157.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.same_src at cocotb_mips.sv:149.13-149.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.XOR.seen at cocotb_mips.sv:237.13-237.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.XOR.zero_src at cocotb_mips.sv:240.13-240.50 in step 3
+cover trace: <trace96>
+  reached cover statement cocotb_mips.\RIstruction.ADD.seen at cocotb_mips.sv:147.13-147.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.ADD.zero_src at cocotb_mips.sv:150.13-150.50 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_ADD at cocotb_mips.sv:314.13-314.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+cover trace: <trace97>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_AND at cocotb_mips.sv:323.13-323.113 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in steps 3, 4
+  reached cover statement cocotb_mips.\RIstruction.AND.zero_src at cocotb_mips.sv:312.13-312.50 in step 3
+cover trace: <trace98>
+  reached cover statement cocotb_mips.\IIstruction.SB.seen at cocotb_mips.sv:335.11-335.27 in step 3
+  reached cover statement cocotb_mips.\IIstruction.SB.zero_src at cocotb_mips.sv:337.11-337.48 in step 3
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_JAL at cocotb_mips.sv:325.13-325.77 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+cover trace: <trace99>
+  reached cover statement cocotb_mips.\RIstruction.AND.raw_OR at cocotb_mips.sv:322.13-322.112 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.same_src at cocotb_mips.sv:311.13-311.40 in step 4
+  reached cover statement cocotb_mips.\RIstruction.AND.seen at cocotb_mips.sv:309.13-309.29 in step 4
+  reached cover statement cocotb_mips.\RIstruction.OR.seen at cocotb_mips.sv:291.13-291.29 in step 3
+  reached cover statement cocotb_mips.\RIstruction.OR.zero_src at cocotb_mips.sv:294.13-294.50 in step 3

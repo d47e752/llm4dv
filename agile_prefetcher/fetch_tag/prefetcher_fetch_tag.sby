@@ -1,0 +1,31 @@
+
+[tasks]
+cover
+
+[options]
+cover: mode cover
+cover: depth 1000
+cover: vcd off
+cover: timeout 172800
+
+[engines]
+cover: btor btormc
+
+[script]
+read -formal top_pkg.sv
+read -formal prefetcher_pkg.sv
+read -formal bram_fifo.sv
+read -formal ultraram.v
+read -formal ultraram_fifo.sv
+read -formal prefetcher_streaming_manager.sv
+read -formal prefetcher_fetch_tag.sv
+prep -top prefetcher_fetch_tag
+
+[files]
+top_pkg.sv
+prefetcher_pkg.sv
+bram_fifo.sv
+ultraram.v
+ultraram_fifo.sv
+prefetcher_streaming_manager.sv
+prefetcher_fetch_tag.sv

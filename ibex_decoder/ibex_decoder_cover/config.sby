@@ -1,0 +1,20 @@
+
+[options]
+mode cover
+depth 1
+vcd off
+timeout 172800
+
+[engines]
+smtbmc
+
+[script]
+read -formal ibex_pkg.sv
+read -formal ibex_decoder.sv
+read -formal ibex_decoder_wrap.sv
+prep -top ibex_decoder_wrap
+
+[files]
+ibex_pkg.sv
+ibex_decoder.sv
+ibex_decoder_wrap.sv

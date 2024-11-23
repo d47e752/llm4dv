@@ -1,0 +1,411 @@
+SBY 14:26:58 [async_fifo_cover] Removing directory '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover'.
+SBY 14:26:58 [async_fifo_cover] Copy '/media/sf_fyp/ml4dv/async_fifo/src/async_fifo.sv' to '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover/src/async_fifo.sv'.
+SBY 14:26:58 [async_fifo_cover] Copy '/media/sf_fyp/ml4dv/async_fifo/src/fifomem.v' to '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover/src/fifomem.v'.
+SBY 14:26:58 [async_fifo_cover] Copy '/media/sf_fyp/ml4dv/async_fifo/src/fifomem_dp.v' to '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover/src/fifomem_dp.v'.
+SBY 14:26:58 [async_fifo_cover] Copy '/media/sf_fyp/ml4dv/async_fifo/src/rptr_empty.v' to '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover/src/rptr_empty.v'.
+SBY 14:26:58 [async_fifo_cover] Copy '/media/sf_fyp/ml4dv/async_fifo/src/sync_ptr.v' to '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover/src/sync_ptr.v'.
+SBY 14:26:58 [async_fifo_cover] Copy '/media/sf_fyp/ml4dv/async_fifo/src/sync_r2w.v' to '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover/src/sync_r2w.v'.
+SBY 14:26:58 [async_fifo_cover] Copy '/media/sf_fyp/ml4dv/async_fifo/src/sync_w2r.v' to '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover/src/sync_w2r.v'.
+SBY 14:26:59 [async_fifo_cover] Copy '/media/sf_fyp/ml4dv/async_fifo/src/wptr_full.v' to '/media/sf_fyp/ml4dv/async_fifo/async_fifo_cover/src/wptr_full.v'.
+SBY 14:26:59 [async_fifo_cover] engine_0: btor btormc
+SBY 14:26:59 [async_fifo_cover] base: starting process "cd async_fifo_cover/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 14:26:59 [async_fifo_cover] base: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:26:59 [async_fifo_cover] base: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:26:59 [async_fifo_cover] base: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:26:59 [async_fifo_cover] base: This license was issued to John P Wickerson.
+SBY 14:26:59 [async_fifo_cover] base: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1875] async_fifo.sv:114: identifier 'wptr_prev' is used before its declaration
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1875] async_fifo.sv:115: identifier 'wfull_prev' is used before its declaration
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1875] async_fifo.sv:116: identifier 'wrst_n_prev' is used before its declaration
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1209] async_fifo.sv:121: expression size 5 truncated to fit in target size 4
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1209] async_fifo.sv:125: expression size 5 truncated to fit in target size 4
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1216] async_fifo.sv:141: index -1 is out of range [4:0] for 'rptr'
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1216] async_fifo.sv:141: index -1 is out of range [31:0] for 'rptr_prev'
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1216] async_fifo.sv:160: index -1 is out of range [4:0] for 'wptr'
+SBY 14:26:59 [async_fifo_cover] base: VERIFIC-WARNING [VERI-1216] async_fifo.sv:160: index -1 is out of range [31:0] for 'wptr_prev'
+SBY 14:27:00 [async_fifo_cover] base: Warning: Wire async_fifo.$verific$n92$6 is used but has no driver.
+SBY 14:27:00 [async_fifo_cover] base: finished (returncode=0)
+SBY 14:27:00 [async_fifo_cover] prep: starting process "cd async_fifo_cover/model; yosys -ql design_prep.log design_prep.ys"
+SBY 14:27:00 [async_fifo_cover] prep: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:00 [async_fifo_cover] prep: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:00 [async_fifo_cover] prep: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:00 [async_fifo_cover] prep: This license was issued to John P Wickerson.
+SBY 14:27:00 [async_fifo_cover] prep: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:00 [async_fifo_cover] prep: finished (returncode=0)
+SBY 14:27:00 [async_fifo_cover] btor: starting process "cd async_fifo_cover/model; yosys -ql design_btor.log design_btor.ys"
+SBY 14:27:01 [async_fifo_cover] btor: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:01 [async_fifo_cover] btor: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:01 [async_fifo_cover] btor: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:01 [async_fifo_cover] btor: This license was issued to John P Wickerson.
+SBY 14:27:01 [async_fifo_cover] btor: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:01 [async_fifo_cover] btor: finished (returncode=0)
+SBY 14:27:01 [async_fifo_cover] engine_0: starting process "cd async_fifo_cover; btormc --stop-first 0 -v 1 -kmax 99 model/design_btor.btor"
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] calling BMC on 10 properties from bound 0 up-to maximum bound k = 99
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 0 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 4 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 5 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 7 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 8 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 9 at bound k = 0 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 0
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 0 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 4 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 5 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 7 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 8 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 9 at bound k = 1 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 1
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 0 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 4 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 5 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 7 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 8 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 9 at bound k = 2 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 2
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 0 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 4 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 5 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 7 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 8 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 9 at bound k = 3 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 3
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 0 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 4 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 5 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 7 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 8 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 9 at bound k = 4 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 4
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 0 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 4 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 5 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 7 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 8 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 9 at bound k = 5 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 5
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 0 reachable at bound k = 6 SATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0.trace0: Generating simulation trace for witness file: engine_0/trace0.yw
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 6 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 6 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 6 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 4 reachable at bound k = 6 SATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0.trace1: Generating simulation trace for witness file: engine_0/trace1.yw
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 5 reachable at bound k = 6 SATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0.trace2: Generating simulation trace for witness file: engine_0/trace2.yw
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 6 UNSATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 7 reachable at bound k = 6 SATISFIABLE
+SBY 14:27:01 [async_fifo_cover] engine_0.trace3: Generating simulation trace for witness file: engine_0/trace3.yw
+SBY 14:27:01 [async_fifo_cover] engine_0: [btor>mc] bad state property 8 reachable at bound k = 6 SATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0.trace4: Generating simulation trace for witness file: engine_0/trace4.yw
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 9 reachable at bound k = 6 SATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0.trace5: Generating simulation trace for witness file: engine_0/trace5.yw
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 6 reachable and 0 unreachable bad state properties at bound k = 6
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 7 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 7 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 7 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 7 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 7
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 8 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 8 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 8 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 8 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 8
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 9 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 9 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 9 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 9 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 9
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 10 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 10 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 10 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 10 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 10
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 11 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 11 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 11 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 11 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 11
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 12 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 12 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 12 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 12 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 12
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 13 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 13 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 13 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 13 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 13
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 14 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 14 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 14 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 14 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 14
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 15 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 15 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 15 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 15 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 15
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 16 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 16 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 16 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 16 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 16
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 17 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 17 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 17 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 17 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 17
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 18 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 18 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 18 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 18 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 18
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 19 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 19 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 19 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 19 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 19
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 20 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 20 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 20 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 20 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 20
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 at bound k = 21 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 21 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 21 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 at bound k = 21 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 21
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 1 reachable at bound k = 22 SATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0.trace6: Generating simulation trace for witness file: engine_0/trace6.yw
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 22 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 22 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 6 reachable at bound k = 22 SATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0.trace7: Generating simulation trace for witness file: engine_0/trace7.yw
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 2 reachable and 0 unreachable bad state properties at bound k = 22
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 23 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 23 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 23
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 24 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 24 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 24
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 25 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 25 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 25
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 26 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 26 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 26
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 27 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 27 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 27
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 28 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 28 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 28
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 29 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 29 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 29
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 30 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 30 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 30
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 31 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 31 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 31
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 32 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 32 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 32
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 33 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 33 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 33
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 34 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 34 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 34
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 35 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 35 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 35
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 36 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 36 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 36
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 37 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 at bound k = 37 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 37
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 38 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 3 reachable at bound k = 38 SATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0.trace8: Generating simulation trace for witness file: engine_0/trace8.yw
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 1 reachable and 0 unreachable bad state properties at bound k = 38
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 39 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 39
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 40 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 40
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 at bound k = 41 UNSATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 41
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] bad state property 2 reachable at bound k = 42 SATISFIABLE
+SBY 14:27:02 [async_fifo_cover] engine_0.trace9: Generating simulation trace for witness file: engine_0/trace9.yw
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] found 1 reachable and 0 unreachable bad state properties at bound k = 42
+SBY 14:27:02 [async_fifo_cover] engine_0: [btor>mc] deleting model checker: 7 inputs, 35 states, 10 bad, 5 constraints
+SBY 14:27:02 [async_fifo_cover] engine_0: finished (returncode=0)
+SBY 14:27:02 [async_fifo_cover] engine_0.trace0: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace0.wit model/design_btor.ywb engine_0/trace0.yw"
+SBY 14:27:02 [async_fifo_cover] engine_0.trace1: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace1.wit model/design_btor.ywb engine_0/trace1.yw"
+SBY 14:27:02 [async_fifo_cover] engine_0.trace2: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace2.wit model/design_btor.ywb engine_0/trace2.yw"
+SBY 14:27:02 [async_fifo_cover] engine_0.trace3: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace3.wit model/design_btor.ywb engine_0/trace3.yw"
+SBY 14:27:02 [async_fifo_cover] engine_0.trace4: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace4.wit model/design_btor.ywb engine_0/trace4.yw"
+SBY 14:27:03 [async_fifo_cover] engine_0.trace5: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace5.wit model/design_btor.ywb engine_0/trace5.yw"
+SBY 14:27:03 [async_fifo_cover] engine_0.trace6: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace6.wit model/design_btor.ywb engine_0/trace6.yw"
+SBY 14:27:03 [async_fifo_cover] engine_0.trace7: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace7.wit model/design_btor.ywb engine_0/trace7.yw"
+SBY 14:27:29 [async_fifo_cover] engine_0.trace0: Converting BTOR witness trace 'engine_0/trace0.wit' to Yosys witness trace 'engine_0/trace0.yw'...
+SBY 14:27:29 [async_fifo_cover] engine_0.trace0: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:29 [async_fifo_cover] engine_0.trace0: Converted 7 time steps.
+SBY 14:27:29 [async_fifo_cover] engine_0.trace7: Converting BTOR witness trace 'engine_0/trace7.wit' to Yosys witness trace 'engine_0/trace7.yw'...
+SBY 14:27:29 [async_fifo_cover] engine_0.trace7: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:30 [async_fifo_cover] engine_0.trace7: Converted 23 time steps.
+SBY 14:27:30 [async_fifo_cover] engine_0.trace2: Converting BTOR witness trace 'engine_0/trace2.wit' to Yosys witness trace 'engine_0/trace2.yw'...
+SBY 14:27:30 [async_fifo_cover] engine_0.trace2: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:30 [async_fifo_cover] engine_0.trace6: Converting BTOR witness trace 'engine_0/trace6.wit' to Yosys witness trace 'engine_0/trace6.yw'...
+SBY 14:27:30 [async_fifo_cover] engine_0.trace6: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:30 [async_fifo_cover] engine_0.trace1: Converting BTOR witness trace 'engine_0/trace1.wit' to Yosys witness trace 'engine_0/trace1.yw'...
+SBY 14:27:30 [async_fifo_cover] engine_0.trace1: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:30 [async_fifo_cover] engine_0.trace6: Converted 23 time steps.
+SBY 14:27:30 [async_fifo_cover] engine_0.trace2: Converted 7 time steps.
+SBY 14:27:30 [async_fifo_cover] engine_0.trace3: Converting BTOR witness trace 'engine_0/trace3.wit' to Yosys witness trace 'engine_0/trace3.yw'...
+SBY 14:27:30 [async_fifo_cover] engine_0.trace3: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:30 [async_fifo_cover] engine_0.trace0: finished (returncode=0)
+SBY 14:27:30 [async_fifo_cover] engine_0.trace1: Converted 7 time steps.
+SBY 14:27:30 [async_fifo_cover] engine_0.trace8: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace8.wit model/design_btor.ywb engine_0/trace8.yw"
+SBY 14:27:30 [async_fifo_cover] engine_0.trace3: Converted 7 time steps.
+SBY 14:27:30 [async_fifo_cover] engine_0.trace5: Converting BTOR witness trace 'engine_0/trace5.wit' to Yosys witness trace 'engine_0/trace5.yw'...
+SBY 14:27:30 [async_fifo_cover] engine_0.trace5: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:30 [async_fifo_cover] engine_0.trace5: Converted 7 time steps.
+SBY 14:27:30 [async_fifo_cover] engine_0.trace7: finished (returncode=0)
+SBY 14:27:30 [async_fifo_cover] engine_0.trace9: starting process "cd async_fifo_cover; yosys-witness wit2yw engine_0/trace9.wit model/design_btor.ywb engine_0/trace9.yw"
+SBY 14:27:30 [async_fifo_cover] engine_0.trace4: Converting BTOR witness trace 'engine_0/trace4.wit' to Yosys witness trace 'engine_0/trace4.yw'...
+SBY 14:27:30 [async_fifo_cover] engine_0.trace4: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:30 [async_fifo_cover] engine_0.trace4: Converted 7 time steps.
+SBY 14:27:30 [async_fifo_cover] engine_0.trace6: finished (returncode=0)
+SBY 14:27:31 [async_fifo_cover] engine_0.trace1: finished (returncode=0)
+SBY 14:27:31 [async_fifo_cover] engine_0.trace0: starting process "cd async_fifo_cover/engine_0; yosys -ql trace0.log trace0.ys"
+SBY 14:27:31 [async_fifo_cover] engine_0.trace2: finished (returncode=0)
+SBY 14:27:31 [async_fifo_cover] engine_0.trace7: starting process "cd async_fifo_cover/engine_0; yosys -ql trace7.log trace7.ys"
+SBY 14:27:31 [async_fifo_cover] engine_0.trace6: starting process "cd async_fifo_cover/engine_0; yosys -ql trace6.log trace6.ys"
+SBY 14:27:31 [async_fifo_cover] engine_0.trace3: finished (returncode=0)
+SBY 14:27:31 [async_fifo_cover] engine_0.trace1: starting process "cd async_fifo_cover/engine_0; yosys -ql trace1.log trace1.ys"
+SBY 14:27:31 [async_fifo_cover] engine_0.trace5: finished (returncode=0)
+SBY 14:27:31 [async_fifo_cover] engine_0.trace2: starting process "cd async_fifo_cover/engine_0; yosys -ql trace2.log trace2.ys"
+SBY 14:27:31 [async_fifo_cover] engine_0.trace4: finished (returncode=0)
+SBY 14:27:31 [async_fifo_cover] engine_0.trace3: starting process "cd async_fifo_cover/engine_0; yosys -ql trace3.log trace3.ys"
+SBY 14:27:36 [async_fifo_cover] engine_0.trace7: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace7: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace7: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace7: This license was issued to John P Wickerson.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace7: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace0: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace0: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace0: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace0: This license was issued to John P Wickerson.
+SBY 14:27:36 [async_fifo_cover] engine_0.trace0: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace6: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace6: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace6: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace6: This license was issued to John P Wickerson.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace6: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace2: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace2: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace2: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace2: This license was issued to John P Wickerson.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace2: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace1: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace1: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace1: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace1: This license was issued to John P Wickerson.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace1: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace3: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace3: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace3: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace3: This license was issued to John P Wickerson.
+SBY 14:27:37 [async_fifo_cover] engine_0.trace3: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:38 [async_fifo_cover] engine_0.trace0: finished (returncode=0)
+SBY 14:27:38 [async_fifo_cover] engine_0.trace6: finished (returncode=0)
+SBY 14:27:38 [async_fifo_cover] engine_0.trace2: finished (returncode=0)
+SBY 14:27:38 [async_fifo_cover] engine_0.trace7: finished (returncode=0)
+SBY 14:27:38 [async_fifo_cover] engine_0.trace3: finished (returncode=0)
+SBY 14:27:38 [async_fifo_cover] engine_0.trace4: starting process "cd async_fifo_cover/engine_0; yosys -ql trace4.log trace4.ys"
+SBY 14:27:38 [async_fifo_cover] engine_0.trace1: finished (returncode=0)
+SBY 14:27:38 [async_fifo_cover] engine_0.trace5: starting process "cd async_fifo_cover/engine_0; yosys -ql trace5.log trace5.ys"
+SBY 14:27:41 [async_fifo_cover] engine_0.trace4: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace4: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace4: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace4: This license was issued to John P Wickerson.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace4: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace5: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace5: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace5: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace5: This license was issued to John P Wickerson.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace5: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:41 [async_fifo_cover] engine_0.trace4: finished (returncode=0)
+SBY 14:27:41 [async_fifo_cover] engine_0.trace5: finished (returncode=0)
+SBY 14:27:46 [async_fifo_cover] engine_0.trace8: Converting BTOR witness trace 'engine_0/trace8.wit' to Yosys witness trace 'engine_0/trace8.yw'...
+SBY 14:27:46 [async_fifo_cover] engine_0.trace8: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:46 [async_fifo_cover] engine_0.trace8: Converted 39 time steps.
+SBY 14:27:46 [async_fifo_cover] engine_0.trace9: Converting BTOR witness trace 'engine_0/trace9.wit' to Yosys witness trace 'engine_0/trace9.yw'...
+SBY 14:27:46 [async_fifo_cover] engine_0.trace9: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 14:27:46 [async_fifo_cover] engine_0.trace8: finished (returncode=0)
+SBY 14:27:46 [async_fifo_cover] engine_0.trace8: starting process "cd async_fifo_cover/engine_0; yosys -ql trace8.log trace8.ys"
+SBY 14:27:46 [async_fifo_cover] engine_0.trace9: Converted 43 time steps.
+SBY 14:27:47 [async_fifo_cover] engine_0.trace9: finished (returncode=0)
+SBY 14:27:47 [async_fifo_cover] engine_0.trace9: starting process "cd async_fifo_cover/engine_0; yosys -ql trace9.log trace9.ys"
+SBY 14:27:48 [async_fifo_cover] engine_0.trace8: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace8: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace8: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace8: This license was issued to John P Wickerson.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace8: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace9: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace9: This license is granted for the limited purpose of academic and/or research activities.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace9: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace9: This license was issued to John P Wickerson.
+SBY 14:27:48 [async_fifo_cover] engine_0.trace9: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 14:27:49 [async_fifo_cover] engine_0.trace8: finished (returncode=0)
+SBY 14:27:49 [async_fifo_cover] engine_0.trace9: finished (returncode=0)
+SBY 14:27:49 [async_fifo_cover] engine_0: Status returned by engine: pass
+SBY 14:27:49 [async_fifo_cover] summary: Elapsed clock time [H:MM:SS (secs)]: 0:00:50 (50)
+SBY 14:27:49 [async_fifo_cover] summary: Elapsed process time [H:MM:SS (secs)]: 0:00:35 (35)
+SBY 14:27:49 [async_fifo_cover] summary: engine_0 (btor btormc) returned pass
+SBY 14:27:49 [async_fifo_cover] summary: cover trace: <trace0>
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+SBY 14:27:49 [async_fifo_cover] summary: cover trace: <trace1>
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+SBY 14:27:49 [async_fifo_cover] summary: cover trace: <trace2>
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+SBY 14:27:49 [async_fifo_cover] summary: cover trace: <trace3>
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in step 6
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in step 6
+SBY 14:27:49 [async_fifo_cover] summary: cover trace: <trace4>
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in step 6
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+SBY 14:27:49 [async_fifo_cover] summary:   reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in step 6
+SBY 14:27:49 [async_fifo_cover] summary: and 5 further traces
+SBY 14:27:49 [async_fifo_cover] summary: see async_fifo_cover/PASS for a complete summary
+SBY 14:27:49 [async_fifo_cover] DONE (PASS, rc=0)

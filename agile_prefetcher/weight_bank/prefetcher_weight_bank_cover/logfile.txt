@@ -1,0 +1,497 @@
+SBY 17:15:45 [prefetcher_weight_bank_cover] Removing directory '/home/bs420/ml4dv/agile_prefetcher/weight_bank/prefetcher_weight_bank_cover'.
+SBY 17:15:46 [prefetcher_weight_bank_cover] Copy '/home/bs420/ml4dv/agile_prefetcher/weight_bank/top_pkg.sv' to '/home/bs420/ml4dv/agile_prefetcher/weight_bank/prefetcher_weight_bank_cover/src/top_pkg.sv'.
+SBY 17:15:46 [prefetcher_weight_bank_cover] Copy '/home/bs420/ml4dv/agile_prefetcher/weight_bank/ultraram.v' to '/home/bs420/ml4dv/agile_prefetcher/weight_bank/prefetcher_weight_bank_cover/src/ultraram.v'.
+SBY 17:15:46 [prefetcher_weight_bank_cover] Copy '/home/bs420/ml4dv/agile_prefetcher/weight_bank/ultraram_fifo.sv' to '/home/bs420/ml4dv/agile_prefetcher/weight_bank/prefetcher_weight_bank_cover/src/ultraram_fifo.sv'.
+SBY 17:15:46 [prefetcher_weight_bank_cover] Copy '/home/bs420/ml4dv/agile_prefetcher/weight_bank/prefetcher_weight_bank.sv' to '/home/bs420/ml4dv/agile_prefetcher/weight_bank/prefetcher_weight_bank_cover/src/prefetcher_weight_bank.sv'.
+SBY 17:15:46 [prefetcher_weight_bank_cover] engine_0: smtbmc
+SBY 17:15:46 [prefetcher_weight_bank_cover] base: starting process "cd prefetcher_weight_bank_cover/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: This license is granted for the limited purpose of academic and/or research activities.
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: This license was issued to John P Wickerson.
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:14: parameter 'AGGREGATION_CHANNELS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:15: parameter 'TRANSFORMATION_CHANNELS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:18: parameter 'MAX_NODES' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:19: parameter 'MAX_NODESLOT_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:20: parameter 'MAX_NEIGHBOURS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:21: parameter 'MAX_FEATURE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:22: parameter 'FEATURE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:24: parameter 'NODE_ID_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:26: parameter 'LARGE_FEATURE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:27: parameter 'LARGE_PRECISION_BYTE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:28: parameter 'LARGE_MSG_QUEUE_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:31: parameter 'PRECISION_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:34: parameter 'AXI_ADDRESS_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:35: parameter 'AXI_DATA_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:36: parameter 'AXI_ADDR_MSB_BITS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:39: parameter 'AXIL_ADDR_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:41: parameter 'MAX_REQUIRED_BYTES_ADJ_FETCH_REQ' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:42: parameter 'MAX_REQUIRED_BYTES_MSG_FETCH_REQ' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:43: parameter 'MAX_REQUIRED_BYTES_WEIGHTS_FETCH_REQ' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:44: parameter 'MAX_REQUIRED_BYTES_FETCH_REQ' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:46: parameter 'MAX_FETCH_REQ_BYTE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:47: parameter 'MAX_PRECISION_BYTE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:50: parameter 'MESSAGE_CHANNEL_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:53: parameter 'MESH_INPUT_BLOCK_BUFFER_SIZE' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:56: parameter 'AGGREGATION_BUFFER_SLOTS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:57: parameter 'AGGREGATION_BUFFER_WRITE_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:58: parameter 'AGGREGATION_BUFFER_WRITE_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:59: parameter 'AGGREGATION_BUFFER_READ_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:60: parameter 'AGGREGATION_BUFFER_READ_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:64: parameter 'TRANSFORMATION_ROWS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:65: parameter 'SYSTOLIC_MODULE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:68: parameter 'TRANSFORMATION_BUFFER_SLOTS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:69: parameter 'TRANSFORMATION_BUFFER_WRITE_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:70: parameter 'TRANSFORMATION_BUFFER_WRITE_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:71: parameter 'TRANSFORMATION_BUFFER_READ_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:72: parameter 'TRANSFORMATION_BUFFER_READ_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:75: parameter 'SCALE_FACTOR_QUEUE_WRITE_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:76: parameter 'SCALE_FACTOR_QUEUE_WRITE_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:77: parameter 'SCALE_FACTOR_QUEUE_READ_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:78: parameter 'SCALE_FACTOR_QUEUE_READ_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 17:15:47 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-1199] ultraram_fifo.sv:31: parameter 'AWIDTH' becomes localparam in 'ultraram_fifo' with formal parameter declaration list
+SBY 17:15:48 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_weight_bank.sv:216: expression size 1024 truncated to fit in target size 1
+SBY 17:15:48 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_weight_bank.sv:227: expression size 13 truncated to fit in target size 12
+SBY 17:15:48 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_weight_bank.sv:228: expression size 13 truncated to fit in target size 12
+SBY 17:15:48 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_weight_bank.sv:246: expression size 7 truncated to fit in target size 5
+SBY 17:15:49 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_weight_bank.sv:320: expression size 11 truncated to fit in target size 10
+SBY 17:15:49 [prefetcher_weight_bank_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_weight_bank.sv:378: expression size 5 truncated to fit in target size 4
+SBY 17:15:55 [prefetcher_weight_bank_cover] base: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [5] is used but has no driver.
+SBY 17:15:55 [prefetcher_weight_bank_cover] base: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [4] is used but has no driver.
+SBY 17:15:55 [prefetcher_weight_bank_cover] base: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [3] is used but has no driver.
+SBY 17:15:55 [prefetcher_weight_bank_cover] base: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [2] is used but has no driver.
+SBY 17:15:55 [prefetcher_weight_bank_cover] base: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [1] is used but has no driver.
+SBY 17:15:55 [prefetcher_weight_bank_cover] base: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [0] is used but has no driver.
+SBY 17:15:59 [prefetcher_weight_bank_cover] base: finished (returncode=0)
+SBY 17:15:59 [prefetcher_weight_bank_cover] prep: starting process "cd prefetcher_weight_bank_cover/model; yosys -ql design_prep.log design_prep.ys"
+SBY 17:15:59 [prefetcher_weight_bank_cover] prep: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 17:15:59 [prefetcher_weight_bank_cover] prep: This license is granted for the limited purpose of academic and/or research activities.
+SBY 17:15:59 [prefetcher_weight_bank_cover] prep: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 17:15:59 [prefetcher_weight_bank_cover] prep: This license was issued to John P Wickerson.
+SBY 17:15:59 [prefetcher_weight_bank_cover] prep: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 17:16:01 [prefetcher_weight_bank_cover] prep: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [5] is used but has no driver.
+SBY 17:16:01 [prefetcher_weight_bank_cover] prep: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [4] is used but has no driver.
+SBY 17:16:01 [prefetcher_weight_bank_cover] prep: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [3] is used but has no driver.
+SBY 17:16:01 [prefetcher_weight_bank_cover] prep: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [2] is used but has no driver.
+SBY 17:16:01 [prefetcher_weight_bank_cover] prep: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [1] is used but has no driver.
+SBY 17:16:01 [prefetcher_weight_bank_cover] prep: Warning: Wire prefetcher_weight_bank.\nsb_prefetcher_weight_bank_resp.allocated_fetch_tag [0] is used but has no driver.
+SBY 17:16:03 [prefetcher_weight_bank_cover] prep: finished (returncode=0)
+SBY 17:16:03 [prefetcher_weight_bank_cover] smt2: starting process "cd prefetcher_weight_bank_cover/model; yosys -ql design_smt2.log design_smt2.ys"
+SBY 17:16:03 [prefetcher_weight_bank_cover] smt2: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 17:16:03 [prefetcher_weight_bank_cover] smt2: This license is granted for the limited purpose of academic and/or research activities.
+SBY 17:16:03 [prefetcher_weight_bank_cover] smt2: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 17:16:03 [prefetcher_weight_bank_cover] smt2: This license was issued to John P Wickerson.
+SBY 17:16:03 [prefetcher_weight_bank_cover] smt2: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 17:16:04 [prefetcher_weight_bank_cover] smt2: finished (returncode=0)
+SBY 17:16:04 [prefetcher_weight_bank_cover] engine_0: starting process "cd prefetcher_weight_bank_cover; yosys-smtbmc --presat --unroll -c --noprogress -t 1000000  --append 0 --dump-yw engine_0/trace%.yw --dump-vlogtb engine_0/trace%_tb.v --dump-smtc engine_0/trace%.smtc model/design_smt2.smt2"
+SBY 17:16:04 [prefetcher_weight_bank_cover] engine_0: ##   0:00:00  Solver: yices
+SBY 17:16:26 [prefetcher_weight_bank_cover] engine_0: ##   0:00:21  Checking cover reachability in step 0..
+SBY 17:16:31 [prefetcher_weight_bank_cover] engine_0: ##   0:00:26  Checking cover reachability in step 1..
+SBY 17:16:37 [prefetcher_weight_bank_cover] engine_0: ##   0:00:32  Checking cover reachability in step 2..
+SBY 17:16:44 [prefetcher_weight_bank_cover] engine_0: ##   0:00:39  Checking cover reachability in step 3..
+SBY 17:16:52 [prefetcher_weight_bank_cover] engine_0: ##   0:00:47  Checking cover reachability in step 4..
+SBY 17:17:01 [prefetcher_weight_bank_cover] engine_0: ##   0:00:56  Checking cover reachability in step 5..
+SBY 17:17:10 [prefetcher_weight_bank_cover] engine_0: ##   0:01:05  Checking cover reachability in step 6..
+SBY 17:17:20 [prefetcher_weight_bank_cover] engine_0: ##   0:01:15  Checking cover reachability in step 7..
+SBY 17:17:30 [prefetcher_weight_bank_cover] engine_0: ##   0:01:25  Checking cover reachability in step 8..
+SBY 17:17:40 [prefetcher_weight_bank_cover] engine_0: ##   0:01:36  Checking cover reachability in step 9..
+SBY 17:17:51 [prefetcher_weight_bank_cover] engine_0: ##   0:01:47  Checking cover reachability in step 10..
+SBY 17:18:03 [prefetcher_weight_bank_cover] engine_0: ##   0:01:58  Checking cover reachability in step 11..
+SBY 17:18:14 [prefetcher_weight_bank_cover] engine_0: ##   0:02:09  Checking cover reachability in step 12..
+SBY 17:18:27 [prefetcher_weight_bank_cover] engine_0: ##   0:02:23  Checking cover reachability in step 13..
+SBY 17:18:40 [prefetcher_weight_bank_cover] engine_0: ##   0:02:36  Checking cover reachability in step 14..
+SBY 17:18:54 [prefetcher_weight_bank_cover] engine_0: ##   0:02:49  Checking cover reachability in step 15..
+SBY 17:19:08 [prefetcher_weight_bank_cover] engine_0: ##   0:03:03  Checking cover reachability in step 16..
+SBY 17:19:24 [prefetcher_weight_bank_cover] engine_0: ##   0:03:19  Checking cover reachability in step 17..
+SBY 17:19:39 [prefetcher_weight_bank_cover] engine_0: ##   0:03:35  Checking cover reachability in step 18..
+SBY 17:19:55 [prefetcher_weight_bank_cover] engine_0: ##   0:03:51  Checking cover reachability in step 19..
+SBY 17:20:13 [prefetcher_weight_bank_cover] engine_0: ##   0:04:09  Checking cover reachability in step 20..
+SBY 17:20:31 [prefetcher_weight_bank_cover] engine_0: ##   0:04:27  Checking cover reachability in step 21..
+SBY 17:20:51 [prefetcher_weight_bank_cover] engine_0: ##   0:04:46  Checking cover reachability in step 22..
+SBY 17:21:18 [prefetcher_weight_bank_cover] engine_0: ##   0:05:14  Checking cover reachability in step 23..
+SBY 17:21:39 [prefetcher_weight_bank_cover] engine_0: ##   0:05:34  Checking cover reachability in step 24..
+SBY 17:21:59 [prefetcher_weight_bank_cover] engine_0: ##   0:05:54  Checking cover reachability in step 25..
+SBY 17:22:22 [prefetcher_weight_bank_cover] engine_0: ##   0:06:18  Checking cover reachability in step 26..
+SBY 17:22:46 [prefetcher_weight_bank_cover] engine_0: ##   0:06:41  Checking cover reachability in step 27..
+SBY 17:23:24 [prefetcher_weight_bank_cover] engine_0: ##   0:07:20  Checking cover reachability in step 28..
+SBY 17:24:04 [prefetcher_weight_bank_cover] engine_0: ##   0:08:00  Checking cover reachability in step 29..
+SBY 17:24:44 [prefetcher_weight_bank_cover] engine_0: ##   0:08:40  Checking cover reachability in step 30..
+SBY 17:25:45 [prefetcher_weight_bank_cover] engine_0: ##   0:09:40  waiting for solver (1 minute)
+SBY 17:26:02 [prefetcher_weight_bank_cover] engine_0: ##   0:09:58  Checking cover reachability in step 31..
+SBY 17:27:03 [prefetcher_weight_bank_cover] engine_0: ##   0:10:58  waiting for solver (1 minute)
+SBY 17:27:24 [prefetcher_weight_bank_cover] engine_0: ##   0:11:20  Checking cover reachability in step 32..
+SBY 17:28:25 [prefetcher_weight_bank_cover] engine_0: ##   0:12:20  waiting for solver (1 minute)
+SBY 17:28:44 [prefetcher_weight_bank_cover] engine_0: ##   0:12:40  Checking cover reachability in step 33..
+SBY 17:29:45 [prefetcher_weight_bank_cover] engine_0: ##   0:13:41  waiting for solver (1 minute)
+SBY 17:30:41 [prefetcher_weight_bank_cover] engine_0: ##   0:14:36  Checking cover reachability in step 34..
+SBY 17:31:42 [prefetcher_weight_bank_cover] engine_0: ##   0:15:37  waiting for solver (1 minute)
+SBY 17:32:57 [prefetcher_weight_bank_cover] engine_0: ##   0:16:52  Checking cover reachability in step 35..
+SBY 17:33:57 [prefetcher_weight_bank_cover] engine_0: ##   0:17:53  waiting for solver (1 minute)
+SBY 17:36:29 [prefetcher_weight_bank_cover] engine_0: ##   0:20:24  Checking cover reachability in step 36..
+SBY 17:37:30 [prefetcher_weight_bank_cover] engine_0: ##   0:21:25  waiting for solver (1 minute)
+SBY 17:38:57 [prefetcher_weight_bank_cover] engine_0: ##   0:22:52  Checking cover reachability in step 37..
+SBY 17:39:58 [prefetcher_weight_bank_cover] engine_0: ##   0:23:53  waiting for solver (1 minute)
+SBY 17:42:52 [prefetcher_weight_bank_cover] engine_0: ##   0:26:48  Checking cover reachability in step 38..
+SBY 17:43:53 [prefetcher_weight_bank_cover] engine_0: ##   0:27:49  waiting for solver (1 minute)
+SBY 17:46:37 [prefetcher_weight_bank_cover] engine_0: ##   0:30:32  Checking cover reachability in step 39..
+SBY 17:47:38 [prefetcher_weight_bank_cover] engine_0: ##   0:31:33  waiting for solver (1 minute)
+SBY 17:51:01 [prefetcher_weight_bank_cover] engine_0: ##   0:34:57  Checking cover reachability in step 40..
+SBY 17:52:02 [prefetcher_weight_bank_cover] engine_0: ##   0:35:58  waiting for solver (1 minute)
+SBY 17:56:14 [prefetcher_weight_bank_cover] engine_0: ##   0:40:09  Checking cover reachability in step 41..
+SBY 17:57:15 [prefetcher_weight_bank_cover] engine_0: ##   0:41:11  waiting for solver (1 minute)
+SBY 18:01:06 [prefetcher_weight_bank_cover] engine_0: ##   0:45:02  Checking cover reachability in step 42..
+SBY 18:02:07 [prefetcher_weight_bank_cover] engine_0: ##   0:46:03  waiting for solver (1 minute)
+SBY 18:06:02 [prefetcher_weight_bank_cover] engine_0: ##   0:49:58  Checking cover reachability in step 43..
+SBY 18:07:04 [prefetcher_weight_bank_cover] engine_0: ##   0:50:59  waiting for solver (1 minute)
+SBY 18:11:04 [prefetcher_weight_bank_cover] engine_0: ##   0:54:59  waiting for solver (5 minutes)
+SBY 18:13:50 [prefetcher_weight_bank_cover] engine_0: ##   0:57:45  Checking cover reachability in step 44..
+SBY 18:14:51 [prefetcher_weight_bank_cover] engine_0: ##   0:58:47  waiting for solver (1 minute)
+SBY 18:18:51 [prefetcher_weight_bank_cover] engine_0: ##   1:02:47  waiting for solver (5 minutes)
+SBY 18:21:25 [prefetcher_weight_bank_cover] engine_0: ##   1:05:21  Checking cover reachability in step 45..
+SBY 18:22:27 [prefetcher_weight_bank_cover] engine_0: ##   1:06:22  waiting for solver (1 minute)
+SBY 18:26:27 [prefetcher_weight_bank_cover] engine_0: ##   1:10:22  waiting for solver (5 minutes)
+SBY 18:27:48 [prefetcher_weight_bank_cover] engine_0: ##   1:11:44  Checking cover reachability in step 46..
+SBY 18:28:50 [prefetcher_weight_bank_cover] engine_0: ##   1:12:45  waiting for solver (1 minute)
+SBY 18:32:50 [prefetcher_weight_bank_cover] engine_0: ##   1:16:45  waiting for solver (5 minutes)
+SBY 18:36:39 [prefetcher_weight_bank_cover] engine_0: ##   1:20:34  Checking cover reachability in step 47..
+SBY 18:37:40 [prefetcher_weight_bank_cover] engine_0: ##   1:21:35  waiting for solver (1 minute)
+SBY 18:41:40 [prefetcher_weight_bank_cover] engine_0: ##   1:25:35  waiting for solver (5 minutes)
+SBY 18:46:40 [prefetcher_weight_bank_cover] engine_0: ##   1:30:35  waiting for solver (10 minutes)
+SBY 18:48:05 [prefetcher_weight_bank_cover] engine_0: ##   1:32:00  Checking cover reachability in step 48..
+SBY 18:49:06 [prefetcher_weight_bank_cover] engine_0: ##   1:33:02  waiting for solver (1 minute)
+SBY 18:53:06 [prefetcher_weight_bank_cover] engine_0: ##   1:37:02  waiting for solver (5 minutes)
+SBY 18:58:06 [prefetcher_weight_bank_cover] engine_0: ##   1:42:02  waiting for solver (10 minutes)
+SBY 18:58:33 [prefetcher_weight_bank_cover] engine_0: ##   1:42:28  Checking cover reachability in step 49..
+SBY 18:59:34 [prefetcher_weight_bank_cover] engine_0: ##   1:43:29  waiting for solver (1 minute)
+SBY 19:03:34 [prefetcher_weight_bank_cover] engine_0: ##   1:47:29  waiting for solver (5 minutes)
+SBY 19:08:34 [prefetcher_weight_bank_cover] engine_0: ##   1:52:29  waiting for solver (10 minutes)
+SBY 19:12:51 [prefetcher_weight_bank_cover] engine_0: ##   1:56:46  Checking cover reachability in step 50..
+SBY 19:13:52 [prefetcher_weight_bank_cover] engine_0: ##   1:57:48  waiting for solver (1 minute)
+SBY 19:17:52 [prefetcher_weight_bank_cover] engine_0: ##   2:01:48  waiting for solver (5 minutes)
+SBY 19:22:52 [prefetcher_weight_bank_cover] engine_0: ##   2:06:48  waiting for solver (10 minutes)
+SBY 19:27:52 [prefetcher_weight_bank_cover] engine_0: ##   2:11:48  waiting for solver (15 minutes)
+SBY 19:30:04 [prefetcher_weight_bank_cover] engine_0: ##   2:14:00  Checking cover reachability in step 51..
+SBY 19:31:05 [prefetcher_weight_bank_cover] engine_0: ##   2:15:01  waiting for solver (1 minute)
+SBY 19:35:05 [prefetcher_weight_bank_cover] engine_0: ##   2:19:01  waiting for solver (5 minutes)
+SBY 19:40:05 [prefetcher_weight_bank_cover] engine_0: ##   2:24:01  waiting for solver (10 minutes)
+SBY 19:45:05 [prefetcher_weight_bank_cover] engine_0: ##   2:29:01  waiting for solver (15 minutes)
+SBY 19:46:41 [prefetcher_weight_bank_cover] engine_0: ##   2:30:36  Checking cover reachability in step 52..
+SBY 19:47:43 [prefetcher_weight_bank_cover] engine_0: ##   2:31:38  waiting for solver (1 minute)
+SBY 19:51:43 [prefetcher_weight_bank_cover] engine_0: ##   2:35:38  waiting for solver (5 minutes)
+SBY 19:56:43 [prefetcher_weight_bank_cover] engine_0: ##   2:40:38  waiting for solver (10 minutes)
+SBY 20:01:26 [prefetcher_weight_bank_cover] engine_0: ##   2:45:21  Checking cover reachability in step 53..
+SBY 20:02:27 [prefetcher_weight_bank_cover] engine_0: ##   2:46:22  waiting for solver (1 minute)
+SBY 20:06:27 [prefetcher_weight_bank_cover] engine_0: ##   2:50:22  waiting for solver (5 minutes)
+SBY 20:11:27 [prefetcher_weight_bank_cover] engine_0: ##   2:55:22  waiting for solver (10 minutes)
+SBY 20:16:27 [prefetcher_weight_bank_cover] engine_0: ##   3:00:22  waiting for solver (15 minutes)
+SBY 20:20:39 [prefetcher_weight_bank_cover] engine_0: ##   3:04:34  Checking cover reachability in step 54..
+SBY 20:21:41 [prefetcher_weight_bank_cover] engine_0: ##   3:05:36  waiting for solver (1 minute)
+SBY 20:25:41 [prefetcher_weight_bank_cover] engine_0: ##   3:09:36  waiting for solver (5 minutes)
+SBY 20:30:41 [prefetcher_weight_bank_cover] engine_0: ##   3:14:36  waiting for solver (10 minutes)
+SBY 20:35:41 [prefetcher_weight_bank_cover] engine_0: ##   3:19:36  waiting for solver (15 minutes)
+SBY 20:38:59 [prefetcher_weight_bank_cover] engine_0: ##   3:22:54  Checking cover reachability in step 55..
+SBY 20:40:00 [prefetcher_weight_bank_cover] engine_0: ##   3:23:56  waiting for solver (1 minute)
+SBY 20:44:00 [prefetcher_weight_bank_cover] engine_0: ##   3:27:56  waiting for solver (5 minutes)
+SBY 20:49:00 [prefetcher_weight_bank_cover] engine_0: ##   3:32:56  waiting for solver (10 minutes)
+SBY 20:54:00 [prefetcher_weight_bank_cover] engine_0: ##   3:37:56  waiting for solver (15 minutes)
+SBY 21:07:24 [prefetcher_weight_bank_cover] engine_0: ##   3:51:20  Checking cover reachability in step 56..
+SBY 21:08:26 [prefetcher_weight_bank_cover] engine_0: ##   3:52:22  waiting for solver (1 minute)
+SBY 21:12:26 [prefetcher_weight_bank_cover] engine_0: ##   3:56:22  waiting for solver (5 minutes)
+SBY 21:17:26 [prefetcher_weight_bank_cover] engine_0: ##   4:01:22  waiting for solver (10 minutes)
+SBY 21:22:26 [prefetcher_weight_bank_cover] engine_0: ##   4:06:22  waiting for solver (15 minutes)
+SBY 21:36:10 [prefetcher_weight_bank_cover] engine_0: ##   4:20:05  Checking cover reachability in step 57..
+SBY 21:37:11 [prefetcher_weight_bank_cover] engine_0: ##   4:21:07  waiting for solver (1 minute)
+SBY 21:41:11 [prefetcher_weight_bank_cover] engine_0: ##   4:25:07  waiting for solver (5 minutes)
+SBY 21:46:11 [prefetcher_weight_bank_cover] engine_0: ##   4:30:07  waiting for solver (10 minutes)
+SBY 21:51:11 [prefetcher_weight_bank_cover] engine_0: ##   4:35:07  waiting for solver (15 minutes)
+SBY 21:56:37 [prefetcher_weight_bank_cover] engine_0: ##   4:40:32  Checking cover reachability in step 58..
+SBY 21:57:38 [prefetcher_weight_bank_cover] engine_0: ##   4:41:34  waiting for solver (1 minute)
+SBY 22:01:38 [prefetcher_weight_bank_cover] engine_0: ##   4:45:34  waiting for solver (5 minutes)
+SBY 22:06:38 [prefetcher_weight_bank_cover] engine_0: ##   4:50:34  waiting for solver (10 minutes)
+SBY 22:11:38 [prefetcher_weight_bank_cover] engine_0: ##   4:55:34  waiting for solver (15 minutes)
+SBY 22:26:38 [prefetcher_weight_bank_cover] engine_0: ##   5:10:34  waiting for solver (30 minutes)
+SBY 22:28:32 [prefetcher_weight_bank_cover] engine_0: ##   5:12:27  Checking cover reachability in step 59..
+SBY 22:29:33 [prefetcher_weight_bank_cover] engine_0: ##   5:13:29  waiting for solver (1 minute)
+SBY 22:33:33 [prefetcher_weight_bank_cover] engine_0: ##   5:17:29  waiting for solver (5 minutes)
+SBY 22:38:33 [prefetcher_weight_bank_cover] engine_0: ##   5:22:29  waiting for solver (10 minutes)
+SBY 22:43:33 [prefetcher_weight_bank_cover] engine_0: ##   5:27:29  waiting for solver (15 minutes)
+SBY 22:51:05 [prefetcher_weight_bank_cover] engine_0: ##   5:35:00  Checking cover reachability in step 60..
+SBY 22:52:06 [prefetcher_weight_bank_cover] engine_0: ##   5:36:01  waiting for solver (1 minute)
+SBY 22:56:06 [prefetcher_weight_bank_cover] engine_0: ##   5:40:01  waiting for solver (5 minutes)
+SBY 23:01:06 [prefetcher_weight_bank_cover] engine_0: ##   5:45:01  waiting for solver (10 minutes)
+SBY 23:06:06 [prefetcher_weight_bank_cover] engine_0: ##   5:50:01  waiting for solver (15 minutes)
+SBY 23:21:06 [prefetcher_weight_bank_cover] engine_0: ##   6:05:01  waiting for solver (30 minutes)
+SBY 23:24:27 [prefetcher_weight_bank_cover] engine_0: ##   6:08:22  Checking cover reachability in step 61..
+SBY 23:25:28 [prefetcher_weight_bank_cover] engine_0: ##   6:09:24  waiting for solver (1 minute)
+SBY 23:29:28 [prefetcher_weight_bank_cover] engine_0: ##   6:13:24  waiting for solver (5 minutes)
+SBY 23:34:28 [prefetcher_weight_bank_cover] engine_0: ##   6:18:24  waiting for solver (10 minutes)
+SBY 23:39:28 [prefetcher_weight_bank_cover] engine_0: ##   6:23:24  waiting for solver (15 minutes)
+SBY 23:54:28 [prefetcher_weight_bank_cover] engine_0: ##   6:38:24  waiting for solver (30 minutes)
+SBY  0:07:52 [prefetcher_weight_bank_cover] engine_0: ##   6:51:48  Checking cover reachability in step 62..
+SBY  0:08:54 [prefetcher_weight_bank_cover] engine_0: ##   6:52:49  waiting for solver (1 minute)
+SBY  0:12:54 [prefetcher_weight_bank_cover] engine_0: ##   6:56:49  waiting for solver (5 minutes)
+SBY  0:17:54 [prefetcher_weight_bank_cover] engine_0: ##   7:01:49  waiting for solver (10 minutes)
+SBY  0:22:54 [prefetcher_weight_bank_cover] engine_0: ##   7:06:49  waiting for solver (15 minutes)
+SBY  0:33:44 [prefetcher_weight_bank_cover] engine_0: ##   7:17:39  Checking cover reachability in step 63..
+SBY  0:34:45 [prefetcher_weight_bank_cover] engine_0: ##   7:18:40  waiting for solver (1 minute)
+SBY  0:38:45 [prefetcher_weight_bank_cover] engine_0: ##   7:22:40  waiting for solver (5 minutes)
+SBY  0:43:45 [prefetcher_weight_bank_cover] engine_0: ##   7:27:40  waiting for solver (10 minutes)
+SBY  0:48:45 [prefetcher_weight_bank_cover] engine_0: ##   7:32:40  waiting for solver (15 minutes)
+SBY  0:56:18 [prefetcher_weight_bank_cover] engine_0: ##   7:40:13  Checking cover reachability in step 64..
+SBY  0:57:19 [prefetcher_weight_bank_cover] engine_0: ##   7:41:15  waiting for solver (1 minute)
+SBY  1:01:19 [prefetcher_weight_bank_cover] engine_0: ##   7:45:15  waiting for solver (5 minutes)
+SBY  1:06:19 [prefetcher_weight_bank_cover] engine_0: ##   7:50:15  waiting for solver (10 minutes)
+SBY  1:11:19 [prefetcher_weight_bank_cover] engine_0: ##   7:55:15  waiting for solver (15 minutes)
+SBY  1:22:00 [prefetcher_weight_bank_cover] engine_0: ##   8:05:55  Checking cover reachability in step 65..
+SBY  1:23:02 [prefetcher_weight_bank_cover] engine_0: ##   8:06:57  waiting for solver (1 minute)
+SBY  1:27:02 [prefetcher_weight_bank_cover] engine_0: ##   8:10:57  waiting for solver (5 minutes)
+SBY  1:32:02 [prefetcher_weight_bank_cover] engine_0: ##   8:15:57  waiting for solver (10 minutes)
+SBY  1:37:02 [prefetcher_weight_bank_cover] engine_0: ##   8:20:57  waiting for solver (15 minutes)
+SBY  1:49:44 [prefetcher_weight_bank_cover] engine_0: ##   8:33:39  Checking cover reachability in step 66..
+SBY  1:50:45 [prefetcher_weight_bank_cover] engine_0: ##   8:34:41  waiting for solver (1 minute)
+SBY  1:54:45 [prefetcher_weight_bank_cover] engine_0: ##   8:38:41  waiting for solver (5 minutes)
+SBY  1:59:45 [prefetcher_weight_bank_cover] engine_0: ##   8:43:41  waiting for solver (10 minutes)
+SBY  2:04:45 [prefetcher_weight_bank_cover] engine_0: ##   8:48:41  waiting for solver (15 minutes)
+SBY  2:19:45 [prefetcher_weight_bank_cover] engine_0: ##   9:03:41  waiting for solver (30 minutes)
+SBY  2:27:30 [prefetcher_weight_bank_cover] engine_0: ##   9:11:25  Checking cover reachability in step 67..
+SBY  2:28:32 [prefetcher_weight_bank_cover] engine_0: ##   9:12:27  waiting for solver (1 minute)
+SBY  2:32:32 [prefetcher_weight_bank_cover] engine_0: ##   9:16:27  waiting for solver (5 minutes)
+SBY  2:37:32 [prefetcher_weight_bank_cover] engine_0: ##   9:21:27  waiting for solver (10 minutes)
+SBY  2:42:32 [prefetcher_weight_bank_cover] engine_0: ##   9:26:27  waiting for solver (15 minutes)
+SBY  2:57:32 [prefetcher_weight_bank_cover] engine_0: ##   9:41:27  waiting for solver (30 minutes)
+SBY  3:11:49 [prefetcher_weight_bank_cover] engine_0: ##   9:55:44  Checking cover reachability in step 68..
+SBY  3:12:51 [prefetcher_weight_bank_cover] engine_0: ##   9:56:46  waiting for solver (1 minute)
+SBY  3:16:51 [prefetcher_weight_bank_cover] engine_0: ##  10:00:46  waiting for solver (5 minutes)
+SBY  3:21:51 [prefetcher_weight_bank_cover] engine_0: ##  10:05:46  waiting for solver (10 minutes)
+SBY  3:26:51 [prefetcher_weight_bank_cover] engine_0: ##  10:10:46  waiting for solver (15 minutes)
+SBY  3:41:51 [prefetcher_weight_bank_cover] engine_0: ##  10:25:46  waiting for solver (30 minutes)
+SBY  3:50:10 [prefetcher_weight_bank_cover] engine_0: ##  10:34:05  Checking cover reachability in step 69..
+SBY  3:51:11 [prefetcher_weight_bank_cover] engine_0: ##  10:35:07  waiting for solver (1 minute)
+SBY  3:55:11 [prefetcher_weight_bank_cover] engine_0: ##  10:39:07  waiting for solver (5 minutes)
+SBY  4:00:11 [prefetcher_weight_bank_cover] engine_0: ##  10:44:07  waiting for solver (10 minutes)
+SBY  4:05:11 [prefetcher_weight_bank_cover] engine_0: ##  10:49:07  waiting for solver (15 minutes)
+SBY  4:20:11 [prefetcher_weight_bank_cover] engine_0: ##  11:04:07  waiting for solver (30 minutes)
+SBY  4:32:50 [prefetcher_weight_bank_cover] engine_0: ##  11:16:46  Checking cover reachability in step 70..
+SBY  4:33:52 [prefetcher_weight_bank_cover] engine_0: ##  11:17:47  waiting for solver (1 minute)
+SBY  4:37:52 [prefetcher_weight_bank_cover] engine_0: ##  11:21:47  waiting for solver (5 minutes)
+SBY  4:42:52 [prefetcher_weight_bank_cover] engine_0: ##  11:26:47  waiting for solver (10 minutes)
+SBY  4:47:52 [prefetcher_weight_bank_cover] engine_0: ##  11:31:47  waiting for solver (15 minutes)
+SBY  5:01:58 [prefetcher_weight_bank_cover] engine_0: ##  11:45:53  Reached cover statement at in_features_cov_4 in step 70.
+SBY  5:02:05 [prefetcher_weight_bank_cover] engine_0: ##  11:46:00  Writing trace to Verilog testbench: engine_0/trace0_tb.v
+SBY  5:02:22 [prefetcher_weight_bank_cover] engine_0: ##  11:46:18  Writing trace to constraints file: engine_0/trace0.smtc
+SBY  5:02:36 [prefetcher_weight_bank_cover] engine_0: ##  11:46:31  Writing trace to Yosys witness file: engine_0/trace0.yw
+SBY  5:03:26 [prefetcher_weight_bank_cover] engine_0.trace0: Generating simulation trace for witness file: engine_0/trace0.yw
+SBY  5:03:26 [prefetcher_weight_bank_cover] engine_0: ##  11:47:21  Checking cover reachability in step 70..
+SBY  5:03:26 [prefetcher_weight_bank_cover] engine_0.trace0: starting process "cd prefetcher_weight_bank_cover/engine_0; yosys -ql trace0.log trace0.ys"
+SBY  5:03:27 [prefetcher_weight_bank_cover] engine_0.trace0: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY  5:03:27 [prefetcher_weight_bank_cover] engine_0.trace0: This license is granted for the limited purpose of academic and/or research activities.
+SBY  5:03:27 [prefetcher_weight_bank_cover] engine_0.trace0: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY  5:03:27 [prefetcher_weight_bank_cover] engine_0.trace0: This license was issued to John P Wickerson.
+SBY  5:03:27 [prefetcher_weight_bank_cover] engine_0.trace0: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY  5:03:52 [prefetcher_weight_bank_cover] engine_0.trace0: finished (returncode=0)
+SBY  5:04:27 [prefetcher_weight_bank_cover] engine_0: ##  11:48:23  waiting for solver (1 minute)
+SBY  5:08:27 [prefetcher_weight_bank_cover] engine_0: ##  11:52:23  waiting for solver (5 minutes)
+SBY  5:13:27 [prefetcher_weight_bank_cover] engine_0: ##  11:57:23  waiting for solver (10 minutes)
+SBY  5:18:27 [prefetcher_weight_bank_cover] engine_0: ##  12:02:23  waiting for solver (15 minutes)
+SBY  5:33:27 [prefetcher_weight_bank_cover] engine_0: ##  12:17:23  waiting for solver (30 minutes)
+SBY  5:40:56 [prefetcher_weight_bank_cover] engine_0: ##  12:24:51  Checking cover reachability in step 71..
+SBY  5:41:57 [prefetcher_weight_bank_cover] engine_0: ##  12:25:53  waiting for solver (1 minute)
+SBY  5:45:57 [prefetcher_weight_bank_cover] engine_0: ##  12:29:53  waiting for solver (5 minutes)
+SBY  5:50:57 [prefetcher_weight_bank_cover] engine_0: ##  12:34:53  waiting for solver (10 minutes)
+SBY  5:55:57 [prefetcher_weight_bank_cover] engine_0: ##  12:39:53  waiting for solver (15 minutes)
+SBY  6:10:57 [prefetcher_weight_bank_cover] engine_0: ##  12:54:53  waiting for solver (30 minutes)
+SBY  6:32:42 [prefetcher_weight_bank_cover] engine_0: ##  13:16:37  Checking cover reachability in step 72..
+SBY  6:33:43 [prefetcher_weight_bank_cover] engine_0: ##  13:17:39  waiting for solver (1 minute)
+SBY  6:37:43 [prefetcher_weight_bank_cover] engine_0: ##  13:21:39  waiting for solver (5 minutes)
+SBY  6:42:43 [prefetcher_weight_bank_cover] engine_0: ##  13:26:39  waiting for solver (10 minutes)
+SBY  6:47:43 [prefetcher_weight_bank_cover] engine_0: ##  13:31:39  waiting for solver (15 minutes)
+SBY  7:02:43 [prefetcher_weight_bank_cover] engine_0: ##  13:46:39  waiting for solver (30 minutes)
+SBY  7:32:43 [prefetcher_weight_bank_cover] engine_0: ##  14:16:39  waiting for solver (1 hour)
+SBY  7:40:41 [prefetcher_weight_bank_cover] engine_0: ##  14:24:36  Checking cover reachability in step 73..
+SBY  7:41:42 [prefetcher_weight_bank_cover] engine_0: ##  14:25:38  waiting for solver (1 minute)
+SBY  7:45:42 [prefetcher_weight_bank_cover] engine_0: ##  14:29:38  waiting for solver (5 minutes)
+SBY  7:50:42 [prefetcher_weight_bank_cover] engine_0: ##  14:34:38  waiting for solver (10 minutes)
+SBY  7:55:42 [prefetcher_weight_bank_cover] engine_0: ##  14:39:38  waiting for solver (15 minutes)
+SBY  8:10:42 [prefetcher_weight_bank_cover] engine_0: ##  14:54:38  waiting for solver (30 minutes)
+SBY  8:29:23 [prefetcher_weight_bank_cover] engine_0: ##  15:13:19  Checking cover reachability in step 74..
+SBY  8:30:25 [prefetcher_weight_bank_cover] engine_0: ##  15:14:20  waiting for solver (1 minute)
+SBY  8:34:25 [prefetcher_weight_bank_cover] engine_0: ##  15:18:20  waiting for solver (5 minutes)
+SBY  8:39:25 [prefetcher_weight_bank_cover] engine_0: ##  15:23:20  waiting for solver (10 minutes)
+SBY  8:44:25 [prefetcher_weight_bank_cover] engine_0: ##  15:28:20  waiting for solver (15 minutes)
+SBY  8:59:25 [prefetcher_weight_bank_cover] engine_0: ##  15:43:20  waiting for solver (30 minutes)
+SBY  9:23:00 [prefetcher_weight_bank_cover] engine_0: ##  16:06:55  Checking cover reachability in step 75..
+SBY  9:24:01 [prefetcher_weight_bank_cover] engine_0: ##  16:07:56  waiting for solver (1 minute)
+SBY  9:28:01 [prefetcher_weight_bank_cover] engine_0: ##  16:11:56  waiting for solver (5 minutes)
+SBY  9:33:01 [prefetcher_weight_bank_cover] engine_0: ##  16:16:56  waiting for solver (10 minutes)
+SBY  9:38:01 [prefetcher_weight_bank_cover] engine_0: ##  16:21:56  waiting for solver (15 minutes)
+SBY  9:53:01 [prefetcher_weight_bank_cover] engine_0: ##  16:36:56  waiting for solver (30 minutes)
+SBY 10:23:01 [prefetcher_weight_bank_cover] engine_0: ##  17:06:56  waiting for solver (1 hour)
+SBY 10:23:21 [prefetcher_weight_bank_cover] engine_0: ##  17:07:17  Checking cover reachability in step 76..
+SBY 10:24:23 [prefetcher_weight_bank_cover] engine_0: ##  17:08:18  waiting for solver (1 minute)
+SBY 10:28:23 [prefetcher_weight_bank_cover] engine_0: ##  17:12:18  waiting for solver (5 minutes)
+SBY 10:33:23 [prefetcher_weight_bank_cover] engine_0: ##  17:17:18  waiting for solver (10 minutes)
+SBY 10:38:23 [prefetcher_weight_bank_cover] engine_0: ##  17:22:18  waiting for solver (15 minutes)
+SBY 10:53:23 [prefetcher_weight_bank_cover] engine_0: ##  17:37:18  waiting for solver (30 minutes)
+SBY 11:20:29 [prefetcher_weight_bank_cover] engine_0: ##  18:04:24  Checking cover reachability in step 77..
+SBY 11:21:30 [prefetcher_weight_bank_cover] engine_0: ##  18:05:25  waiting for solver (1 minute)
+SBY 11:25:30 [prefetcher_weight_bank_cover] engine_0: ##  18:09:25  waiting for solver (5 minutes)
+SBY 11:30:30 [prefetcher_weight_bank_cover] engine_0: ##  18:14:25  waiting for solver (10 minutes)
+SBY 11:35:30 [prefetcher_weight_bank_cover] engine_0: ##  18:19:25  waiting for solver (15 minutes)
+SBY 11:50:30 [prefetcher_weight_bank_cover] engine_0: ##  18:34:25  waiting for solver (30 minutes)
+SBY 12:20:30 [prefetcher_weight_bank_cover] engine_0: ##  19:04:25  waiting for solver (1 hour)
+SBY 12:33:17 [prefetcher_weight_bank_cover] engine_0: ##  19:17:12  Checking cover reachability in step 78..
+SBY 12:34:18 [prefetcher_weight_bank_cover] engine_0: ##  19:18:14  waiting for solver (1 minute)
+SBY 12:38:18 [prefetcher_weight_bank_cover] engine_0: ##  19:22:14  waiting for solver (5 minutes)
+SBY 12:43:18 [prefetcher_weight_bank_cover] engine_0: ##  19:27:14  waiting for solver (10 minutes)
+SBY 12:48:18 [prefetcher_weight_bank_cover] engine_0: ##  19:32:14  waiting for solver (15 minutes)
+SBY 13:03:18 [prefetcher_weight_bank_cover] engine_0: ##  19:47:14  waiting for solver (30 minutes)
+SBY 13:33:18 [prefetcher_weight_bank_cover] engine_0: ##  20:17:14  waiting for solver (1 hour)
+SBY 13:33:57 [prefetcher_weight_bank_cover] engine_0: ##  20:17:52  Checking cover reachability in step 79..
+SBY 13:34:58 [prefetcher_weight_bank_cover] engine_0: ##  20:18:54  waiting for solver (1 minute)
+SBY 13:38:58 [prefetcher_weight_bank_cover] engine_0: ##  20:22:54  waiting for solver (5 minutes)
+SBY 13:43:58 [prefetcher_weight_bank_cover] engine_0: ##  20:27:54  waiting for solver (10 minutes)
+SBY 13:48:58 [prefetcher_weight_bank_cover] engine_0: ##  20:32:54  waiting for solver (15 minutes)
+SBY 14:03:58 [prefetcher_weight_bank_cover] engine_0: ##  20:47:54  waiting for solver (30 minutes)
+SBY 14:33:58 [prefetcher_weight_bank_cover] engine_0: ##  21:17:54  waiting for solver (1 hour)
+SBY 14:40:29 [prefetcher_weight_bank_cover] engine_0: ##  21:24:24  Checking cover reachability in step 80..
+SBY 14:41:31 [prefetcher_weight_bank_cover] engine_0: ##  21:25:26  waiting for solver (1 minute)
+SBY 14:45:31 [prefetcher_weight_bank_cover] engine_0: ##  21:29:26  waiting for solver (5 minutes)
+SBY 14:50:31 [prefetcher_weight_bank_cover] engine_0: ##  21:34:26  waiting for solver (10 minutes)
+SBY 14:55:31 [prefetcher_weight_bank_cover] engine_0: ##  21:39:26  waiting for solver (15 minutes)
+SBY 15:10:31 [prefetcher_weight_bank_cover] engine_0: ##  21:54:26  waiting for solver (30 minutes)
+SBY 15:40:31 [prefetcher_weight_bank_cover] engine_0: ##  22:24:26  waiting for solver (1 hour)
+SBY 16:11:24 [prefetcher_weight_bank_cover] engine_0: ##  22:55:19  Checking cover reachability in step 81..
+SBY 16:12:25 [prefetcher_weight_bank_cover] engine_0: ##  22:56:21  waiting for solver (1 minute)
+SBY 16:16:25 [prefetcher_weight_bank_cover] engine_0: ##  23:00:21  waiting for solver (5 minutes)
+SBY 16:21:25 [prefetcher_weight_bank_cover] engine_0: ##  23:05:21  waiting for solver (10 minutes)
+SBY 16:26:25 [prefetcher_weight_bank_cover] engine_0: ##  23:10:21  waiting for solver (15 minutes)
+SBY 16:41:25 [prefetcher_weight_bank_cover] engine_0: ##  23:25:21  waiting for solver (30 minutes)
+SBY 17:11:25 [prefetcher_weight_bank_cover] engine_0: ##  23:55:21  waiting for solver (1 hour)
+SBY 18:02:00 [prefetcher_weight_bank_cover] engine_0: ##  24:45:55  Checking cover reachability in step 82..
+SBY 18:03:01 [prefetcher_weight_bank_cover] engine_0: ##  24:46:57  waiting for solver (1 minute)
+SBY 18:07:01 [prefetcher_weight_bank_cover] engine_0: ##  24:50:57  waiting for solver (5 minutes)
+SBY 18:12:01 [prefetcher_weight_bank_cover] engine_0: ##  24:55:57  waiting for solver (10 minutes)
+SBY 18:17:01 [prefetcher_weight_bank_cover] engine_0: ##  25:00:57  waiting for solver (15 minutes)
+SBY 18:32:01 [prefetcher_weight_bank_cover] engine_0: ##  25:15:57  waiting for solver (30 minutes)
+SBY 19:02:01 [prefetcher_weight_bank_cover] engine_0: ##  25:45:57  waiting for solver (1 hour)
+SBY 19:35:42 [prefetcher_weight_bank_cover] engine_0: ##  26:19:38  Checking cover reachability in step 83..
+SBY 19:36:44 [prefetcher_weight_bank_cover] engine_0: ##  26:20:39  waiting for solver (1 minute)
+SBY 19:40:44 [prefetcher_weight_bank_cover] engine_0: ##  26:24:39  waiting for solver (5 minutes)
+SBY 19:45:44 [prefetcher_weight_bank_cover] engine_0: ##  26:29:39  waiting for solver (10 minutes)
+SBY 19:50:44 [prefetcher_weight_bank_cover] engine_0: ##  26:34:39  waiting for solver (15 minutes)
+SBY 20:05:44 [prefetcher_weight_bank_cover] engine_0: ##  26:49:39  waiting for solver (30 minutes)
+SBY 20:35:44 [prefetcher_weight_bank_cover] engine_0: ##  27:19:39  waiting for solver (1 hour)
+SBY 21:08:15 [prefetcher_weight_bank_cover] engine_0: ##  27:52:10  Checking cover reachability in step 84..
+SBY 21:09:16 [prefetcher_weight_bank_cover] engine_0: ##  27:53:12  waiting for solver (1 minute)
+SBY 21:13:16 [prefetcher_weight_bank_cover] engine_0: ##  27:57:12  waiting for solver (5 minutes)
+SBY 21:18:16 [prefetcher_weight_bank_cover] engine_0: ##  28:02:12  waiting for solver (10 minutes)
+SBY 21:23:16 [prefetcher_weight_bank_cover] engine_0: ##  28:07:12  waiting for solver (15 minutes)
+SBY 21:38:16 [prefetcher_weight_bank_cover] engine_0: ##  28:22:12  waiting for solver (30 minutes)
+SBY 22:08:16 [prefetcher_weight_bank_cover] engine_0: ##  28:52:12  waiting for solver (1 hour)
+SBY 22:44:01 [prefetcher_weight_bank_cover] engine_0: ##  29:27:56  Checking cover reachability in step 85..
+SBY 22:45:03 [prefetcher_weight_bank_cover] engine_0: ##  29:28:58  waiting for solver (1 minute)
+SBY 22:49:03 [prefetcher_weight_bank_cover] engine_0: ##  29:32:58  waiting for solver (5 minutes)
+SBY 22:54:03 [prefetcher_weight_bank_cover] engine_0: ##  29:37:58  waiting for solver (10 minutes)
+SBY 22:59:03 [prefetcher_weight_bank_cover] engine_0: ##  29:42:58  waiting for solver (15 minutes)
+SBY 23:14:03 [prefetcher_weight_bank_cover] engine_0: ##  29:57:58  waiting for solver (30 minutes)
+SBY 23:44:03 [prefetcher_weight_bank_cover] engine_0: ##  30:27:58  waiting for solver (1 hour)
+SBY  0:44:03 [prefetcher_weight_bank_cover] engine_0: ##  31:27:58  waiting for solver (2 hours)
+SBY  1:03:36 [prefetcher_weight_bank_cover] engine_0: ##  31:47:31  Checking cover reachability in step 86..
+SBY  1:04:38 [prefetcher_weight_bank_cover] engine_0: ##  31:48:33  waiting for solver (1 minute)
+SBY  1:08:38 [prefetcher_weight_bank_cover] engine_0: ##  31:52:33  waiting for solver (5 minutes)
+SBY  1:13:38 [prefetcher_weight_bank_cover] engine_0: ##  31:57:33  waiting for solver (10 minutes)
+SBY  1:18:38 [prefetcher_weight_bank_cover] engine_0: ##  32:02:33  waiting for solver (15 minutes)
+SBY  1:33:38 [prefetcher_weight_bank_cover] engine_0: ##  32:17:33  waiting for solver (30 minutes)
+SBY  1:34:01 [prefetcher_weight_bank_cover] engine_0: ##  32:17:56  Reached cover statement at in_features_cov in step 86.
+SBY  1:34:11 [prefetcher_weight_bank_cover] engine_0: ##  32:18:07  Writing trace to Verilog testbench: engine_0/trace1_tb.v
+SBY  1:34:36 [prefetcher_weight_bank_cover] engine_0: ##  32:18:32  Writing trace to constraints file: engine_0/trace1.smtc
+SBY  1:35:00 [prefetcher_weight_bank_cover] engine_0: ##  32:18:56  Writing trace to Yosys witness file: engine_0/trace1.yw
+SBY  1:36:22 [prefetcher_weight_bank_cover] engine_0.trace1: Generating simulation trace for witness file: engine_0/trace1.yw
+SBY  1:36:22 [prefetcher_weight_bank_cover] engine_0: ##  32:20:17  Checking cover reachability in step 86..
+SBY  1:36:22 [prefetcher_weight_bank_cover] engine_0.trace1: starting process "cd prefetcher_weight_bank_cover/engine_0; yosys -ql trace1.log trace1.ys"
+SBY  1:36:36 [prefetcher_weight_bank_cover] engine_0.trace1: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY  1:36:36 [prefetcher_weight_bank_cover] engine_0.trace1: This license is granted for the limited purpose of academic and/or research activities.
+SBY  1:36:36 [prefetcher_weight_bank_cover] engine_0.trace1: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY  1:36:36 [prefetcher_weight_bank_cover] engine_0.trace1: This license was issued to John P Wickerson.
+SBY  1:36:36 [prefetcher_weight_bank_cover] engine_0.trace1: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY  1:37:12 [prefetcher_weight_bank_cover] engine_0.trace1: finished (returncode=0)
+SBY  1:37:25 [prefetcher_weight_bank_cover] engine_0: ##  32:21:20  waiting for solver (1 minute)
+SBY  1:41:25 [prefetcher_weight_bank_cover] engine_0: ##  32:25:20  waiting for solver (5 minutes)
+SBY  1:46:25 [prefetcher_weight_bank_cover] engine_0: ##  32:30:20  waiting for solver (10 minutes)
+SBY  1:51:25 [prefetcher_weight_bank_cover] engine_0: ##  32:35:20  waiting for solver (15 minutes)
+SBY  2:06:25 [prefetcher_weight_bank_cover] engine_0: ##  32:50:20  waiting for solver (30 minutes)
+SBY  2:36:25 [prefetcher_weight_bank_cover] engine_0: ##  33:20:20  waiting for solver (1 hour)
+SBY  3:06:57 [prefetcher_weight_bank_cover] engine_0: ##  33:50:52  Checking cover reachability in step 87..
+SBY  3:07:59 [prefetcher_weight_bank_cover] engine_0: ##  33:51:54  waiting for solver (1 minute)
+SBY  3:11:59 [prefetcher_weight_bank_cover] engine_0: ##  33:55:54  waiting for solver (5 minutes)
+SBY  3:16:59 [prefetcher_weight_bank_cover] engine_0: ##  34:00:54  waiting for solver (10 minutes)
+SBY  3:21:59 [prefetcher_weight_bank_cover] engine_0: ##  34:05:54  waiting for solver (15 minutes)
+SBY  3:36:59 [prefetcher_weight_bank_cover] engine_0: ##  34:20:54  waiting for solver (30 minutes)
+SBY  4:06:59 [prefetcher_weight_bank_cover] engine_0: ##  34:50:54  waiting for solver (1 hour)
+SBY  5:06:59 [prefetcher_weight_bank_cover] engine_0: ##  35:50:54  waiting for solver (2 hours)
+SBY  5:46:16 [prefetcher_weight_bank_cover] engine_0: ##  36:30:12  Checking cover reachability in step 88..
+SBY  5:47:19 [prefetcher_weight_bank_cover] engine_0: ##  36:31:14  waiting for solver (1 minute)
+SBY  5:51:19 [prefetcher_weight_bank_cover] engine_0: ##  36:35:14  waiting for solver (5 minutes)
+SBY  5:56:19 [prefetcher_weight_bank_cover] engine_0: ##  36:40:14  waiting for solver (10 minutes)
+SBY  6:01:19 [prefetcher_weight_bank_cover] engine_0: ##  36:45:14  waiting for solver (15 minutes)
+SBY  6:16:19 [prefetcher_weight_bank_cover] engine_0: ##  37:00:14  waiting for solver (30 minutes)
+SBY  6:46:19 [prefetcher_weight_bank_cover] engine_0: ##  37:30:14  waiting for solver (1 hour)
+SBY  7:46:19 [prefetcher_weight_bank_cover] engine_0: ##  38:30:14  waiting for solver (2 hours)
+SBY  8:21:48 [prefetcher_weight_bank_cover] engine_0: ##  39:05:43  Checking cover reachability in step 89..
+SBY  8:22:50 [prefetcher_weight_bank_cover] engine_0: ##  39:06:46  waiting for solver (1 minute)
+SBY  8:26:50 [prefetcher_weight_bank_cover] engine_0: ##  39:10:46  waiting for solver (5 minutes)
+SBY  8:31:50 [prefetcher_weight_bank_cover] engine_0: ##  39:15:46  waiting for solver (10 minutes)
+SBY  8:36:50 [prefetcher_weight_bank_cover] engine_0: ##  39:20:46  waiting for solver (15 minutes)
+SBY  8:51:50 [prefetcher_weight_bank_cover] engine_0: ##  39:35:46  waiting for solver (30 minutes)
+SBY  9:21:50 [prefetcher_weight_bank_cover] engine_0: ##  40:05:46  waiting for solver (1 hour)
+SBY 10:21:50 [prefetcher_weight_bank_cover] engine_0: ##  41:05:46  waiting for solver (2 hours)
+SBY 10:39:55 [prefetcher_weight_bank_cover] engine_0: ##  41:23:50  Reached cover statement at out_features_cov_2 in step 89.
+SBY 10:40:05 [prefetcher_weight_bank_cover] engine_0: ##  41:24:00  Writing trace to Verilog testbench: engine_0/trace2_tb.v
+SBY 10:40:31 [prefetcher_weight_bank_cover] engine_0: ##  41:24:26  Writing trace to constraints file: engine_0/trace2.smtc
+SBY 10:40:48 [prefetcher_weight_bank_cover] engine_0: ##  41:24:43  Writing trace to Yosys witness file: engine_0/trace2.yw
+SBY 10:41:56 [prefetcher_weight_bank_cover] engine_0.trace2: Generating simulation trace for witness file: engine_0/trace2.yw
+SBY 10:41:56 [prefetcher_weight_bank_cover] engine_0: ##  41:25:52  Checking cover reachability in step 89..
+SBY 10:41:56 [prefetcher_weight_bank_cover] engine_0.trace2: starting process "cd prefetcher_weight_bank_cover/engine_0; yosys -ql trace2.log trace2.ys"
+SBY 10:42:07 [prefetcher_weight_bank_cover] engine_0.trace2: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 10:42:07 [prefetcher_weight_bank_cover] engine_0.trace2: This license is granted for the limited purpose of academic and/or research activities.
+SBY 10:42:07 [prefetcher_weight_bank_cover] engine_0.trace2: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 10:42:07 [prefetcher_weight_bank_cover] engine_0.trace2: This license was issued to John P Wickerson.
+SBY 10:42:07 [prefetcher_weight_bank_cover] engine_0.trace2: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 10:42:39 [prefetcher_weight_bank_cover] engine_0.trace2: finished (returncode=0)
+SBY 10:42:59 [prefetcher_weight_bank_cover] engine_0: ##  41:26:54  waiting for solver (1 minute)
+SBY 10:46:59 [prefetcher_weight_bank_cover] engine_0: ##  41:30:54  waiting for solver (5 minutes)
+SBY 10:51:59 [prefetcher_weight_bank_cover] engine_0: ##  41:35:54  waiting for solver (10 minutes)
+SBY 10:56:59 [prefetcher_weight_bank_cover] engine_0: ##  41:40:54  waiting for solver (15 minutes)
+SBY 11:11:59 [prefetcher_weight_bank_cover] engine_0: ##  41:55:54  waiting for solver (30 minutes)
+SBY 11:41:59 [prefetcher_weight_bank_cover] engine_0: ##  42:25:54  waiting for solver (1 hour)
+SBY 12:41:59 [prefetcher_weight_bank_cover] engine_0: ##  43:25:54  waiting for solver (2 hours)
+SBY 13:41:59 [prefetcher_weight_bank_cover] engine_0: ##  44:25:54  waiting for solver (3 hours)
+SBY 14:27:10 [prefetcher_weight_bank_cover] engine_0: ##  45:11:05  Checking cover reachability in step 90..
+SBY 14:28:11 [prefetcher_weight_bank_cover] engine_0: ##  45:12:07  waiting for solver (1 minute)
+SBY 14:32:11 [prefetcher_weight_bank_cover] engine_0: ##  45:16:07  waiting for solver (5 minutes)
+SBY 14:37:11 [prefetcher_weight_bank_cover] engine_0: ##  45:21:07  waiting for solver (10 minutes)
+SBY 14:42:11 [prefetcher_weight_bank_cover] engine_0: ##  45:26:07  waiting for solver (15 minutes)
+SBY 14:57:12 [prefetcher_weight_bank_cover] engine_0: ##  45:41:07  waiting for solver (30 minutes)
+SBY 15:27:12 [prefetcher_weight_bank_cover] engine_0: ##  46:11:07  waiting for solver (1 hour)
+SBY 16:27:12 [prefetcher_weight_bank_cover] engine_0: ##  47:11:07  waiting for solver (2 hours)
+SBY 17:15:47 [prefetcher_weight_bank_cover] Reached TIMEOUT (172800 seconds). Terminating all subprocesses.
+SBY 17:15:48 [prefetcher_weight_bank_cover] engine_0: terminating process
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary: Elapsed clock time [H:MM:SS (secs)]: 48:00:02 (172802)
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary: Elapsed process time [H:MM:SS (secs)]: 0:01:41 (101)
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary: engine_0 (smtbmc) did not return a status
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary: cover trace: <trace0>
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   reached cover statement prefetcher_weight_bank.in_features_cov_4 at prefetcher_weight_bank.sv:391.21-391.63 in step 70
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary: cover trace: <trace1>
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   reached cover statement prefetcher_weight_bank.in_features_cov at prefetcher_weight_bank.sv:391.21-391.63 in step 86
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary: cover trace: <trace2>
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   reached cover statement prefetcher_weight_bank.out_features_cov_2 at prefetcher_weight_bank.sv:398.21-398.65 in step 89
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary: unreached cover statements:
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   prefetcher_weight_bank.combined_features_cov at prefetcher_weight_bank.sv:393.25-393.95
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   prefetcher_weight_bank.combined_features_cov_10 at prefetcher_weight_bank.sv:393.25-393.95
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   prefetcher_weight_bank.combined_features_cov_100 at prefetcher_weight_bank.sv:393.25-393.95
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   prefetcher_weight_bank.combined_features_cov_101 at prefetcher_weight_bank.sv:393.25-393.95
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   prefetcher_weight_bank.combined_features_cov_102 at prefetcher_weight_bank.sv:393.25-393.95
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary:   and 316 further properties
+SBY 17:15:48 [prefetcher_weight_bank_cover] summary: see prefetcher_weight_bank_cover/TIMEOUT for a complete summary
+SBY 17:15:48 [prefetcher_weight_bank_cover] DONE (TIMEOUT, rc=8)

@@ -1,0 +1,37 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:00:15 (15)
+Elapsed process time [H:MM:SS (secs)]: 0:00:15 (15)
+engine_0 (smtbmc) returned pass
+cover trace: <trace0>
+  reached cover statement sdram_controller.command_inhibit at sdram_controller.sv:436.11-436.65 in step 2
+cover trace: <trace1>
+  reached cover statement sdram_controller.command_inhibit at sdram_controller.sv:436.11-436.65 in steps 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17
+  reached cover statement sdram_controller.precharge at sdram_controller.sv:434.11-434.61 in step 18
+cover trace: <trace2>
+  reached cover statement sdram_controller.auto_refresh at sdram_controller.sv:435.11-435.64 in step 20
+  reached cover statement sdram_controller.command_inhibit at sdram_controller.sv:436.11-436.65 in steps 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19
+  reached cover statement sdram_controller.precharge at sdram_controller.sv:434.11-434.61 in step 18
+cover trace: <trace3>
+  reached cover statement sdram_controller.auto_refresh at sdram_controller.sv:435.11-435.64 in steps 20, 29
+  reached cover statement sdram_controller.command_inhibit at sdram_controller.sv:436.11-436.65 in steps 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37
+  reached cover statement sdram_controller.load_mode_register at sdram_controller.sv:437.11-437.71 in step 38
+  reached cover statement sdram_controller.precharge at sdram_controller.sv:434.11-434.61 in step 18
+cover trace: <trace4>
+  reached cover statement sdram_controller.activate at sdram_controller.sv:438.11-438.59 in step 42
+  reached cover statement sdram_controller.auto_refresh at sdram_controller.sv:435.11-435.64 in steps 20, 29
+  reached cover statement sdram_controller.command_inhibit at sdram_controller.sv:436.11-436.65 in steps 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41
+  reached cover statement sdram_controller.load_mode_register at sdram_controller.sv:437.11-437.71 in step 38
+  reached cover statement sdram_controller.precharge at sdram_controller.sv:434.11-434.61 in step 18
+cover trace: <trace5>
+  reached cover statement sdram_controller.activate at sdram_controller.sv:438.11-438.59 in step 42
+  reached cover statement sdram_controller.auto_refresh at sdram_controller.sv:435.11-435.64 in steps 20, 29
+  reached cover statement sdram_controller.command_inhibit at sdram_controller.sv:436.11-436.65 in steps 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 43, 44
+  reached cover statement sdram_controller.load_mode_register at sdram_controller.sv:437.11-437.71 in step 38
+  reached cover statement sdram_controller.precharge at sdram_controller.sv:434.11-434.61 in step 18
+  reached cover statement sdram_controller.write at sdram_controller.sv:440.11-440.57 in step 45
+cover trace: <trace6>
+  reached cover statement sdram_controller.activate at sdram_controller.sv:438.11-438.59 in step 42
+  reached cover statement sdram_controller.auto_refresh at sdram_controller.sv:435.11-435.64 in steps 20, 29
+  reached cover statement sdram_controller.command_inhibit at sdram_controller.sv:436.11-436.65 in steps 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 21, 22, 23, 24, 25, 26, 27, 28, 30, 31, 32, 33, 34, 35, 36, 37, 39, 40, 41, 43, 44
+  reached cover statement sdram_controller.load_mode_register at sdram_controller.sv:437.11-437.71 in step 38
+  reached cover statement sdram_controller.precharge at sdram_controller.sv:434.11-434.61 in step 18
+  reached cover statement sdram_controller.read at sdram_controller.sv:439.11-439.55 in step 45

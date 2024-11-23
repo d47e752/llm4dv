@@ -1,0 +1,51 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:00:50 (50)
+Elapsed process time [H:MM:SS (secs)]: 0:00:35 (35)
+engine_0 (btor btormc) returned pass
+cover trace: <trace0>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+cover trace: <trace1>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+cover trace: <trace2>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+cover trace: <trace3>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+  reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in step 6
+  reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+  reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in step 6
+cover trace: <trace4>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+  reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in step 6
+  reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+  reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in step 6
+cover trace: <trace5>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+  reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in step 6
+  reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+  reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in step 6
+cover trace: <trace6>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+  reached cover statement async_fifo.full at async_fifo.sv:158.13-158.49 in step 22
+  reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in steps 6, 19
+  reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+  reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in steps 6, 19
+cover trace: <trace7>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+  reached cover statement async_fifo.full at async_fifo.sv:158.13-158.49 in step 22
+  reached cover statement async_fifo.overflow at async_fifo.sv:161.13-161.44 in step 22
+  reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in step 6
+  reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+  reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in step 6
+cover trace: <trace8>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in step 6
+  reached cover statement async_fifo.full at async_fifo.sv:158.13-158.49 in step 38
+  reached cover statement async_fifo.full_write_wrap at async_fifo.sv:159.13-159.102 in step 38
+  reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in steps 6, 10, 11, 12, 13, 19, 20, 21, 22, 25, 26, 28, 29, 30, 31, 32, 33
+  reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+  reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in steps 6, 10, 11, 12, 13, 19, 20, 21, 22, 25, 26, 28, 29, 30, 31, 32, 33
+cover trace: <trace9>
+  reached cover statement async_fifo.empty at async_fifo.sv:139.13-139.52 in steps 6, 42
+  reached cover statement async_fifo.full_read_wrap at async_fifo.sv:140.13-140.101 in step 42
+  reached cover statement async_fifo.full_write_wrap at async_fifo.sv:159.13-159.102 in step 38
+  reached cover statement async_fifo.read_while_write at async_fifo.sv:143.13-143.51 in steps 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37
+  reached cover statement async_fifo.underflow at async_fifo.sv:142.13-142.46 in step 6
+  reached cover statement async_fifo.write_while_read at async_fifo.sv:162.13-162.51 in steps 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37

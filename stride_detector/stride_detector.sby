@@ -1,0 +1,19 @@
+
+[tasks]
+cover
+
+[options]
+cover: mode cover
+cover: depth 1
+cover: vcd off
+cover: timeout 172800
+
+[engines]
+cover: smtbmc
+
+[script]
+read -formal stride_detector.sv
+prep -top stride_detector
+
+[files]
+stride_detector.sv

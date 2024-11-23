@@ -1,0 +1,54 @@
+
+[tasks]
+cover
+
+[options]
+cover: mode cover
+cover: depth 15
+cover: vcd off
+
+[engines]
+cover: btor btormc
+
+[script]
+read -define SYNTHESIS
+read -define RVFI
+read -formal ibex_pkg.sv
+--pycode-begin--
+import os
+root_dir = "src"
+# Walk through all subdirectories
+for dirpath, dirnames, filenames in os.walk(root_dir):
+    # Check each file in filenames
+    for filename in filenames:
+        # Check the file extension
+        if ("pkg" in filename and (not filename == "ibex_pkg.sv")):
+            # Print the full path of files
+            print("read -formal %s" % filename)
+            output("read -formal %s" % filename)
+# Walk through all subdirectories
+for dirpath, dirnames, filenames in os.walk(root_dir):
+    # Check each file in filenames
+    for filename in filenames:
+        # Check the file extension
+        if (filename.endswith('.sv') or filename.endswith('.v') or filename.endswith('.svh')) and not ("pkg" in filename) and not ("xilinx" in filename):
+            # Print the full path of files
+            output("read -formal %s" % filename)
+--pycode-end--
+
+read -formal cocotb_ibex.sv
+prep -top cocotb_ibex
+
+[files]
+--pycode-begin--
+import os
+root_dir = "."
+# Walk through all subdirectories
+for dirpath, dirnames, filenames in os.walk(root_dir):
+    # Check each file in filenames
+    for filename in filenames:
+        # Check the file extension
+        if filename.endswith('.sv') or filename.endswith('.v') or filename.endswith('.svh'):
+            # Print the full path of files
+            output(os.path.join(dirpath, filename))
+--pycode-end--

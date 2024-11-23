@@ -1,0 +1,433 @@
+SBY 16:44:12 [prefetcher_fetch_tag_cover] Removing directory '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag_cover'.
+SBY 16:44:12 [prefetcher_fetch_tag_cover] Copy '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/top_pkg.sv' to '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag_cover/src/top_pkg.sv'.
+SBY 16:44:12 [prefetcher_fetch_tag_cover] Copy '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_pkg.sv' to '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag_cover/src/prefetcher_pkg.sv'.
+SBY 16:44:12 [prefetcher_fetch_tag_cover] Copy '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/bram_fifo.sv' to '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag_cover/src/bram_fifo.sv'.
+SBY 16:44:12 [prefetcher_fetch_tag_cover] Copy '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/ultraram.v' to '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag_cover/src/ultraram.v'.
+SBY 16:44:12 [prefetcher_fetch_tag_cover] Copy '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/ultraram_fifo.sv' to '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag_cover/src/ultraram_fifo.sv'.
+SBY 16:44:12 [prefetcher_fetch_tag_cover] Copy '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_streaming_manager.sv' to '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag_cover/src/prefetcher_streaming_manager.sv'.
+SBY 16:44:12 [prefetcher_fetch_tag_cover] Copy '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag.sv' to '/media/sf_fyp/ml4dv/agile_prefetcher/fetch_tag/prefetcher_fetch_tag_cover/src/prefetcher_fetch_tag.sv'.
+SBY 16:44:12 [prefetcher_fetch_tag_cover] engine_0: btor btormc
+SBY 16:44:13 [prefetcher_fetch_tag_cover] base: starting process "cd prefetcher_fetch_tag_cover/src; yosys -ql ../model/design.log ../model/design.ys"
+SBY 16:44:14 [prefetcher_fetch_tag_cover] base: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:44:14 [prefetcher_fetch_tag_cover] base: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:44:14 [prefetcher_fetch_tag_cover] base: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:44:14 [prefetcher_fetch_tag_cover] base: This license was issued to John P Wickerson.
+SBY 16:44:14 [prefetcher_fetch_tag_cover] base: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:14: parameter 'AGGREGATION_CHANNELS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:15: parameter 'TRANSFORMATION_CHANNELS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:18: parameter 'MAX_NODES' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:19: parameter 'MAX_NODESLOT_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:20: parameter 'MAX_NEIGHBOURS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:21: parameter 'MAX_FEATURE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:22: parameter 'FEATURE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:24: parameter 'NODE_ID_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:26: parameter 'LARGE_FEATURE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:27: parameter 'LARGE_PRECISION_BYTE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:28: parameter 'LARGE_MSG_QUEUE_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:31: parameter 'PRECISION_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:34: parameter 'AXI_ADDRESS_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:35: parameter 'AXI_DATA_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:36: parameter 'AXI_ADDR_MSB_BITS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:39: parameter 'AXIL_ADDR_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:41: parameter 'MAX_REQUIRED_BYTES_ADJ_FETCH_REQ' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:42: parameter 'MAX_REQUIRED_BYTES_MSG_FETCH_REQ' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:43: parameter 'MAX_REQUIRED_BYTES_WEIGHTS_FETCH_REQ' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:44: parameter 'MAX_REQUIRED_BYTES_FETCH_REQ' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:46: parameter 'MAX_FETCH_REQ_BYTE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:47: parameter 'MAX_PRECISION_BYTE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:50: parameter 'MESSAGE_CHANNEL_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:53: parameter 'MESH_INPUT_BLOCK_BUFFER_SIZE' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:56: parameter 'AGGREGATION_BUFFER_SLOTS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:57: parameter 'AGGREGATION_BUFFER_WRITE_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:58: parameter 'AGGREGATION_BUFFER_WRITE_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:59: parameter 'AGGREGATION_BUFFER_READ_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:60: parameter 'AGGREGATION_BUFFER_READ_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:64: parameter 'TRANSFORMATION_ROWS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:65: parameter 'SYSTOLIC_MODULE_COUNT' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:68: parameter 'TRANSFORMATION_BUFFER_SLOTS' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:69: parameter 'TRANSFORMATION_BUFFER_WRITE_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:70: parameter 'TRANSFORMATION_BUFFER_WRITE_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:71: parameter 'TRANSFORMATION_BUFFER_READ_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:72: parameter 'TRANSFORMATION_BUFFER_READ_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:75: parameter 'SCALE_FACTOR_QUEUE_WRITE_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:76: parameter 'SCALE_FACTOR_QUEUE_WRITE_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:77: parameter 'SCALE_FACTOR_QUEUE_READ_WIDTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] top_pkg.sv:78: parameter 'SCALE_FACTOR_QUEUE_READ_DEPTH' declared inside package 'top_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] prefetcher_pkg.sv:9: parameter 'ADJACENCY_QUEUE_WIDTH' declared inside package 'prefetcher_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] prefetcher_pkg.sv:10: parameter 'ADJACENCY_QUEUE_DEPTH' declared inside package 'prefetcher_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] prefetcher_pkg.sv:14: parameter 'MESSAGE_QUEUE_WIDTH' declared inside package 'prefetcher_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] prefetcher_pkg.sv:15: parameter 'MESSAGE_QUEUE_DEPTH' declared inside package 'prefetcher_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] prefetcher_pkg.sv:17: parameter 'MAX_ADJ_FETCH_RESPONSES' declared inside package 'prefetcher_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] prefetcher_pkg.sv:18: parameter 'MAX_MSG_FETCH_RESPONSES' declared inside package 'prefetcher_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] prefetcher_pkg.sv:19: parameter 'MAX_SCALE_FACTOR_FETCH_RESPONSES' declared inside package 'prefetcher_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-2418] prefetcher_pkg.sv:20: parameter 'MAX_FETCH_RESPONSES' declared inside package 'prefetcher_pkg' shall be treated as localparam
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-1199] bram_fifo.sv:33: parameter 'WRITE_ADDR_WIDTH' becomes localparam in 'bram_fifo' with formal parameter declaration list
+SBY 16:44:15 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-1199] bram_fifo.sv:34: parameter 'READ_ADDR_WIDTH' becomes localparam in 'bram_fifo' with formal parameter declaration list
+SBY 16:44:16 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-1199] ultraram_fifo.sv:31: parameter 'AWIDTH' becomes localparam in 'ultraram_fifo' with formal parameter declaration list
+SBY 16:44:16 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_streaming_manager.sv:192: expression size 27 truncated to fit in target size 6
+SBY 16:44:16 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_fetch_tag.sv:411: expression size 27 truncated to fit in target size 6
+SBY 16:44:16 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_fetch_tag.sv:416: expression size 32 truncated to fit in target size 6
+SBY 16:44:16 [prefetcher_fetch_tag_cover] base: VERIFIC-WARNING [VERI-1209] prefetcher_fetch_tag.sv:526: expression size 5 truncated to fit in target size 4
+SBY 16:44:18 [prefetcher_fetch_tag_cover] base: finished (returncode=0)
+SBY 16:44:19 [prefetcher_fetch_tag_cover] prep: starting process "cd prefetcher_fetch_tag_cover/model; yosys -ql design_prep.log design_prep.ys"
+SBY 16:44:19 [prefetcher_fetch_tag_cover] prep: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:44:19 [prefetcher_fetch_tag_cover] prep: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:44:19 [prefetcher_fetch_tag_cover] prep: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:44:19 [prefetcher_fetch_tag_cover] prep: This license was issued to John P Wickerson.
+SBY 16:44:19 [prefetcher_fetch_tag_cover] prep: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:44:20 [prefetcher_fetch_tag_cover] prep: finished (returncode=0)
+SBY 16:44:20 [prefetcher_fetch_tag_cover] btor: starting process "cd prefetcher_fetch_tag_cover/model; yosys -ql design_btor.log design_btor.ys"
+SBY 16:44:21 [prefetcher_fetch_tag_cover] btor: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:44:21 [prefetcher_fetch_tag_cover] btor: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:44:21 [prefetcher_fetch_tag_cover] btor: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:44:21 [prefetcher_fetch_tag_cover] btor: This license was issued to John P Wickerson.
+SBY 16:44:21 [prefetcher_fetch_tag_cover] btor: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:44:22 [prefetcher_fetch_tag_cover] btor: Warning: No driver for signal \scale_factor_queue.in_data.
+SBY 16:44:22 [prefetcher_fetch_tag_cover] btor: finished (returncode=0)
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: starting process "cd prefetcher_fetch_tag_cover; btormc --stop-first 0 -v 1 -kmax 999 model/design_btor.btor"
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] calling BMC on 10 properties from bound 0 up-to maximum bound k = 999
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 0 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 1 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 2 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 4 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 5 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 7 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 8 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 9 at bound k = 0 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 0
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 0 at bound k = 1 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 1 at bound k = 1 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 2 at bound k = 1 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 1 UNSATISFIABLE
+SBY 16:44:22 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 4 at bound k = 1 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 5 at bound k = 1 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 1 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 7 at bound k = 1 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 8 at bound k = 1 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 9 at bound k = 1 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 1
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 0 reachable at bound k = 2 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace0: Generating simulation trace for witness file: engine_0/trace0.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 1 at bound k = 2 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 2 reachable at bound k = 2 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace1: Generating simulation trace for witness file: engine_0/trace1.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 2 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 4 reachable at bound k = 2 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace2: Generating simulation trace for witness file: engine_0/trace2.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 5 at bound k = 2 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 2 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 7 reachable at bound k = 2 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace3: Generating simulation trace for witness file: engine_0/trace3.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 8 at bound k = 2 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 9 reachable at bound k = 2 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace4: Generating simulation trace for witness file: engine_0/trace4.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 5 reachable and 0 unreachable bad state properties at bound k = 2
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 1 reachable at bound k = 3 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace5: Generating simulation trace for witness file: engine_0/trace5.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 3 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 5 reachable at bound k = 3 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace6: Generating simulation trace for witness file: engine_0/trace6.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 3 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 8 reachable at bound k = 3 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace7: Generating simulation trace for witness file: engine_0/trace7.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 3 reachable and 0 unreachable bad state properties at bound k = 3
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 4 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 4 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 4
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 5 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 5 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 5
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 6 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 6 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 6
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 7 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 7 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 7
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 8 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 8 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 8
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 9 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 at bound k = 9 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 9
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 10 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 6 reachable at bound k = 10 SATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace8: Generating simulation trace for witness file: engine_0/trace8.yw
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 1 reachable and 0 unreachable bad state properties at bound k = 10
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 11 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 11
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 12 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 12
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 13 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 13
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 14 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 14
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 15 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 15
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 16 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 16
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 17 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 17
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 18 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 18
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 19 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 19
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 20 UNSATISFIABLE
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 20
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace0: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace0.wit model/design_btor.ywb engine_0/trace0.yw"
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace1: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace1.wit model/design_btor.ywb engine_0/trace1.yw"
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace2: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace2.wit model/design_btor.ywb engine_0/trace2.yw"
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace3: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace3.wit model/design_btor.ywb engine_0/trace3.yw"
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace4: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace4.wit model/design_btor.ywb engine_0/trace4.yw"
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace5: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace5.wit model/design_btor.ywb engine_0/trace5.yw"
+SBY 16:44:23 [prefetcher_fetch_tag_cover] engine_0.trace6: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace6.wit model/design_btor.ywb engine_0/trace6.yw"
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 21 UNSATISFIABLE
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 21
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 22 UNSATISFIABLE
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 22
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 23 UNSATISFIABLE
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 23
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 24 UNSATISFIABLE
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 24
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 25 UNSATISFIABLE
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 25
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 26 UNSATISFIABLE
+SBY 16:44:24 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 26
+SBY 16:44:25 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 27 UNSATISFIABLE
+SBY 16:44:25 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 27
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 28 UNSATISFIABLE
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 28
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 29 UNSATISFIABLE
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 29
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 30 UNSATISFIABLE
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 30
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 31 UNSATISFIABLE
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 31
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 32 UNSATISFIABLE
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 32
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 33 UNSATISFIABLE
+SBY 16:44:28 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 33
+SBY 16:44:29 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 34 UNSATISFIABLE
+SBY 16:44:29 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 34
+SBY 16:44:29 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 35 UNSATISFIABLE
+SBY 16:44:29 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 35
+SBY 16:44:29 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 36 UNSATISFIABLE
+SBY 16:44:29 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 36
+SBY 16:44:29 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 37 UNSATISFIABLE
+SBY 16:44:29 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 37
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 38 UNSATISFIABLE
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 38
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 39 UNSATISFIABLE
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 39
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 40 UNSATISFIABLE
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 40
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 41 UNSATISFIABLE
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 41
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 42 UNSATISFIABLE
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 42
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 43 UNSATISFIABLE
+SBY 16:44:31 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 43
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 44 UNSATISFIABLE
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 44
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 45 UNSATISFIABLE
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 45
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 46 UNSATISFIABLE
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 46
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 47 UNSATISFIABLE
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 47
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 48 UNSATISFIABLE
+SBY 16:44:32 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 48
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 49 UNSATISFIABLE
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 49
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 50 UNSATISFIABLE
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 50
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 51 UNSATISFIABLE
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 51
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 52 UNSATISFIABLE
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 52
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 53 UNSATISFIABLE
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 53
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 54 UNSATISFIABLE
+SBY 16:44:33 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 54
+SBY 16:44:34 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 55 UNSATISFIABLE
+SBY 16:44:34 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 55
+SBY 16:44:34 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 56 UNSATISFIABLE
+SBY 16:44:34 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 56
+SBY 16:44:34 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 57 UNSATISFIABLE
+SBY 16:44:34 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 57
+SBY 16:44:39 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 58 UNSATISFIABLE
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 58
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 59 UNSATISFIABLE
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 59
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 60 UNSATISFIABLE
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 60
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 61 UNSATISFIABLE
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 61
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 62 UNSATISFIABLE
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 62
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 63 UNSATISFIABLE
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 63
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 64 UNSATISFIABLE
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 64
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 65 UNSATISFIABLE
+SBY 16:44:40 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 65
+SBY 16:44:41 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 66 UNSATISFIABLE
+SBY 16:44:41 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 66
+SBY 16:44:41 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 67 UNSATISFIABLE
+SBY 16:44:41 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 67
+SBY 16:44:41 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 68 UNSATISFIABLE
+SBY 16:44:41 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 68
+SBY 16:44:43 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 69 UNSATISFIABLE
+SBY 16:44:43 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 69
+SBY 16:44:43 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 70 UNSATISFIABLE
+SBY 16:44:43 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 70
+SBY 16:44:43 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 71 UNSATISFIABLE
+SBY 16:44:43 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 71
+SBY 16:44:43 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 72 UNSATISFIABLE
+SBY 16:44:44 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 72
+SBY 16:44:45 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 73 UNSATISFIABLE
+SBY 16:44:45 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 73
+SBY 16:44:51 [prefetcher_fetch_tag_cover] engine_0.trace2: Converting BTOR witness trace 'engine_0/trace2.wit' to Yosys witness trace 'engine_0/trace2.yw'...
+SBY 16:44:51 [prefetcher_fetch_tag_cover] engine_0.trace2: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 74 UNSATISFIABLE
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 74
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace1: Converting BTOR witness trace 'engine_0/trace1.wit' to Yosys witness trace 'engine_0/trace1.yw'...
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace1: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace2: Converted 3 time steps.
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace3: Converting BTOR witness trace 'engine_0/trace3.wit' to Yosys witness trace 'engine_0/trace3.yw'...
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace3: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace0: Converting BTOR witness trace 'engine_0/trace0.wit' to Yosys witness trace 'engine_0/trace0.yw'...
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace0: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace4: Converting BTOR witness trace 'engine_0/trace4.wit' to Yosys witness trace 'engine_0/trace4.yw'...
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace4: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace6: Converting BTOR witness trace 'engine_0/trace6.wit' to Yosys witness trace 'engine_0/trace6.yw'...
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace6: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace1: Converted 3 time steps.
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace3: Converted 3 time steps.
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace5: Converting BTOR witness trace 'engine_0/trace5.wit' to Yosys witness trace 'engine_0/trace5.yw'...
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace5: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace0: Converted 3 time steps.
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace4: Converted 3 time steps.
+SBY 16:44:52 [prefetcher_fetch_tag_cover] engine_0.trace6: Converted 4 time steps.
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace5: Converted 4 time steps.
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace0: finished (returncode=0)
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace1: finished (returncode=0)
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace7: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace7.wit model/design_btor.ywb engine_0/trace7.yw"
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace2: finished (returncode=0)
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace8: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace8.wit model/design_btor.ywb engine_0/trace8.yw"
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace3: finished (returncode=0)
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace6: finished (returncode=0)
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace0: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace0.log trace0.ys"
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace4: finished (returncode=0)
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace1: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace1.log trace1.ys"
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace2: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace2.log trace2.ys"
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace3: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace3.log trace3.ys"
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace5: finished (returncode=0)
+SBY 16:44:53 [prefetcher_fetch_tag_cover] engine_0.trace6: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace6.log trace6.ys"
+SBY 16:44:54 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 at bound k = 75 UNSATISFIABLE
+SBY 16:44:54 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 0 reachable and 0 unreachable bad state properties at bound k = 75
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace0: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace0: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace0: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace0: This license was issued to John P Wickerson.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace0: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace1: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace1: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace1: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace1: This license was issued to John P Wickerson.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace1: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace6: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace6: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace6: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace6: This license was issued to John P Wickerson.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace6: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace2: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace2: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace2: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace2: This license was issued to John P Wickerson.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace2: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace3: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace3: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace3: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace3: This license was issued to John P Wickerson.
+SBY 16:44:58 [prefetcher_fetch_tag_cover] engine_0.trace3: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:44:59 [prefetcher_fetch_tag_cover] engine_0.trace0: finished (returncode=0)
+SBY 16:44:59 [prefetcher_fetch_tag_cover] engine_0.trace1: finished (returncode=0)
+SBY 16:45:00 [prefetcher_fetch_tag_cover] engine_0.trace4: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace4.log trace4.ys"
+SBY 16:45:00 [prefetcher_fetch_tag_cover] engine_0.trace6: finished (returncode=0)
+SBY 16:45:00 [prefetcher_fetch_tag_cover] engine_0.trace5: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace5.log trace5.ys"
+SBY 16:45:00 [prefetcher_fetch_tag_cover] engine_0.trace2: finished (returncode=0)
+SBY 16:45:00 [prefetcher_fetch_tag_cover] engine_0.trace3: finished (returncode=0)
+SBY 16:45:02 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] bad state property 3 reachable at bound k = 76 SATISFIABLE
+SBY 16:45:02 [prefetcher_fetch_tag_cover] engine_0.trace9: Generating simulation trace for witness file: engine_0/trace9.yw
+SBY 16:45:02 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] found 1 reachable and 0 unreachable bad state properties at bound k = 76
+SBY 16:45:02 [prefetcher_fetch_tag_cover] engine_0: [btor>mc] deleting model checker: 35 inputs, 65 states, 10 bad, 4 constraints
+SBY 16:45:02 [prefetcher_fetch_tag_cover] engine_0.trace9: starting process "cd prefetcher_fetch_tag_cover; yosys-witness wit2yw engine_0/trace9.wit model/design_btor.ywb engine_0/trace9.yw"
+SBY 16:45:03 [prefetcher_fetch_tag_cover] engine_0: finished (returncode=0)
+SBY 16:45:03 [prefetcher_fetch_tag_cover] engine_0.trace4: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:45:03 [prefetcher_fetch_tag_cover] engine_0.trace4: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:45:03 [prefetcher_fetch_tag_cover] engine_0.trace4: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:45:03 [prefetcher_fetch_tag_cover] engine_0.trace4: This license was issued to John P Wickerson.
+SBY 16:45:03 [prefetcher_fetch_tag_cover] engine_0.trace4: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:45:04 [prefetcher_fetch_tag_cover] engine_0.trace5: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:45:04 [prefetcher_fetch_tag_cover] engine_0.trace5: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:45:04 [prefetcher_fetch_tag_cover] engine_0.trace5: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:45:04 [prefetcher_fetch_tag_cover] engine_0.trace5: This license was issued to John P Wickerson.
+SBY 16:45:04 [prefetcher_fetch_tag_cover] engine_0.trace5: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:45:04 [prefetcher_fetch_tag_cover] engine_0.trace4: finished (returncode=0)
+SBY 16:45:04 [prefetcher_fetch_tag_cover] engine_0.trace5: finished (returncode=0)
+SBY 16:45:08 [prefetcher_fetch_tag_cover] engine_0.trace8: Converting BTOR witness trace 'engine_0/trace8.wit' to Yosys witness trace 'engine_0/trace8.yw'...
+SBY 16:45:08 [prefetcher_fetch_tag_cover] engine_0.trace8: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:45:08 [prefetcher_fetch_tag_cover] engine_0.trace7: Converting BTOR witness trace 'engine_0/trace7.wit' to Yosys witness trace 'engine_0/trace7.yw'...
+SBY 16:45:08 [prefetcher_fetch_tag_cover] engine_0.trace7: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:45:08 [prefetcher_fetch_tag_cover] engine_0.trace7: Converted 4 time steps.
+SBY 16:45:08 [prefetcher_fetch_tag_cover] engine_0.trace8: Converted 11 time steps.
+SBY 16:45:08 [prefetcher_fetch_tag_cover] engine_0.trace8: finished (returncode=0)
+SBY 16:45:08 [prefetcher_fetch_tag_cover] engine_0.trace8: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace8.log trace8.ys"
+SBY 16:45:09 [prefetcher_fetch_tag_cover] engine_0.trace7: finished (returncode=0)
+SBY 16:45:09 [prefetcher_fetch_tag_cover] engine_0.trace7: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace7.log trace7.ys"
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace7: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace7: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace7: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace7: This license was issued to John P Wickerson.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace7: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace8: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace8: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace8: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace8: This license was issued to John P Wickerson.
+SBY 16:45:10 [prefetcher_fetch_tag_cover] engine_0.trace8: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:45:11 [prefetcher_fetch_tag_cover] engine_0.trace7: finished (returncode=0)
+SBY 16:45:11 [prefetcher_fetch_tag_cover] engine_0.trace8: finished (returncode=0)
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: Converting BTOR witness trace 'engine_0/trace9.wit' to Yosys witness trace 'engine_0/trace9.yw'...
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: Using Yosys witness BTOR map file 'model/design_btor.ywb'
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: Converted 77 time steps.
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: finished (returncode=0)
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: starting process "cd prefetcher_fetch_tag_cover/engine_0; yosys -ql trace9.log trace9.ys"
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: This is an ACADEMIC LICENSE of TabbyCAD Suite.
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: This license is granted for the limited purpose of academic and/or research activities.
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: It is forbidden to use this license to perform services for a fee or other consideration; or in the generation or verification of hardware or hardware designs for sale or license with a view to profit or for a fee or other consideration.
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: This license was issued to John P Wickerson.
+SBY 16:45:12 [prefetcher_fetch_tag_cover] engine_0.trace9: Customer PoC: John P Wickerson <j.wickerson@imperial.ac.uk>.
+SBY 16:45:13 [prefetcher_fetch_tag_cover] engine_0.trace9: finished (returncode=0)
+SBY 16:45:13 [prefetcher_fetch_tag_cover] engine_0: Status returned by engine: pass
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: Elapsed clock time [H:MM:SS (secs)]: 0:01:01 (61)
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: Elapsed process time [H:MM:SS (secs)]: 0:01:22 (82)
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: engine_0 (btor btormc) returned pass
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: cover trace: <trace0>
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_adj_write.adj_dealloc at prefetcher_fetch_tag.sv:536.21-536.51 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: cover trace: <trace1>
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_message_write.mess_dealloc at prefetcher_fetch_tag.sv:542.21-542.52 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_message_write.mess_fetch_adj_partial at prefetcher_fetch_tag.sv:540.21-540.93 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: cover trace: <trace2>
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_message_write.mess_dealloc at prefetcher_fetch_tag.sv:542.21-542.52 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_message_write.mess_fetch_adj_partial at prefetcher_fetch_tag.sv:540.21-540.93 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: cover trace: <trace3>
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: cover trace: <trace4>
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary:   reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in step 2
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: and 5 further traces
+SBY 16:45:13 [prefetcher_fetch_tag_cover] summary: see prefetcher_fetch_tag_cover/PASS for a complete summary
+SBY 16:45:13 [prefetcher_fetch_tag_cover] DONE (PASS, rc=0)

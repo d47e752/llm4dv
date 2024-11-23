@@ -1,0 +1,33 @@
+
+[tasks]
+cover
+
+[options]
+cover: mode cover
+cover: depth 100
+cover: vcd off
+
+[engines]
+cover: btor btormc
+
+[script]
+read -formal wptr_full.v
+read -formal sync_w2r.v
+read -formal sync_r2w.v
+read -formal sync_ptr.v
+read -formal rptr_empty.v
+read -formal fifomem_dp.v
+read -formal fifomem.v
+read -formal async_fifo.sv
+
+prep -top async_fifo
+
+[files]
+src/async_fifo.sv
+src/fifomem.v
+src/fifomem_dp.v
+src/rptr_empty.v
+src/sync_ptr.v
+src/sync_r2w.v
+src/sync_w2r.v
+src/wptr_full.v

@@ -1,0 +1,109 @@
+
+[options]
+mode cover
+depth 15
+vcd off
+
+[engines]
+btor btormc
+
+[script]
+read -sv common_defs.svh
+read -sv compile_options.svh
+read -sv cpu_defs.svh
+read -sv iobuf_helper.svh
+read -formal cpu_core.sv
+read -formal ctrl.sv
+read -formal except.sv
+read -formal cp0.sv
+read -formal cp0_write_mask.sv
+read -formal decoder.sv
+read -formal decode_and_issue.sv
+read -formal decode_branch.sv
+read -formal fpu_register_forward.sv
+read -formal instr_issue.sv
+read -formal register_forward.sv
+read -formal branch_resolver.sv
+read -formal count_bit.sv
+read -formal cp0_forward.sv
+read -formal delayed_exec.sv
+read -formal delayed_register_forward.sv
+read -formal div_uu.v
+read -formal float2int.sv
+read -formal hilo_forward.sv
+read -formal instr_exec.sv
+read -formal multi_cycle_exec.sv
+read -formal resolve_delayslot.sv
+read -formal bht.sv
+read -formal branch_predictor.sv
+read -formal btb.sv
+read -formal instr_fetch.sv
+read -formal multi_queue.sv
+read -formal pc_generator.sv
+read -formal ras.sv
+read -formal dbus_mux.sv
+read -formal instr_mem.sv
+read -formal mmu.sv
+read -formal tlb.sv
+read -formal tlb_lookup.sv
+read -formal hilo.sv
+read -formal ll_bit.sv
+read -formal regfile.sv
+read -formal dual_port_ram.sv
+read -formal fifo_v3.sv
+read -formal lfsr.sv
+read -formal reset_synchronizer.v
+read -formal single_port_ram.sv
+
+read -formal cocotb_mips.sv
+prep -top cocotb_mips
+
+[files]
+./cocotb_mips.sv
+./src/common_defs.svh
+./src/compile_options.svh
+./src/cpu_core.sv
+./src/cpu_defs.svh
+./src/ctrl.sv
+./src/except.sv
+./src/cp0/cp0.sv
+./src/cp0/cp0_write_mask.sv
+./src/decode/decoder.sv
+./src/decode/decode_and_issue.sv
+./src/decode/decode_branch.sv
+./src/decode/fpu_register_forward.sv
+./src/decode/instr_issue.sv
+./src/decode/register_forward.sv
+./src/exec/branch_resolver.sv
+./src/exec/count_bit.sv
+./src/exec/cp0_forward.sv
+./src/exec/delayed_exec.sv
+./src/exec/delayed_register_forward.sv
+./src/exec/div_uu.v
+./src/exec/float2int.sv
+./src/exec/fpu_exec.sv
+./src/exec/hilo_forward.sv
+./src/exec/instr_exec.sv
+./src/exec/multi_cycle_exec.sv
+./src/exec/resolve_delayslot.sv
+./src/fetch/bht.sv
+./src/fetch/branch_predictor.sv
+./src/fetch/btb.sv
+./src/fetch/instr_fetch.sv
+./src/fetch/multi_queue.sv
+./src/fetch/pc_generator.sv
+./src/fetch/ras.sv
+./src/mem/dbus_mux.sv
+./src/mem/instr_mem.sv
+./src/mmu/mmu.sv
+./src/mmu/tlb.sv
+./src/mmu/tlb_lookup.sv
+./src/regs/hilo.sv
+./src/regs/ll_bit.sv
+./src/regs/regfile.sv
+./src/utils/dual_port_ram.sv
+./src/utils/fifo_v3.sv
+./src/utils/iobuf_helper.svh
+./src/utils/lfsr.sv
+./src/utils/reset_synchronizer.v
+./src/utils/single_port_ram.sv

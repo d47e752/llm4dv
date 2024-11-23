@@ -1,0 +1,27 @@
+- You provide a list of lists, in the format: [string, int, int, int]. The internal lists will be interpreted as sequential instructions for a DUT.
+- The DUT is a device that includes three queues (RAM): an "adjacency queue" (depth: 64), a "message queue" (depth: 4096), and a "scale factor queue" (depth: 64)
+- The actual data the queues are loaded with is not important.
+- The three integers you provide are called:
+    - First integer: "nodeslot" (provide a number between 63 and 0)
+    - Second integer: "feature_count" (provide a number between 1023 and 1)
+    - Third integer: "neighbour_count" (provide a number between 1023 and 1)
+- The string in the internal lists defines the operation performed on the DUT. The operations are as follows:
+    - "allocate": you allocate the DUT a "nodeslot". You also allocate the DUT a "feature_count". "feature_count" should be at least 1. Keep note of the nodeslot you allocated to. You will need it to hit the majority of the coverage bins.
+    - "deallocate": you deallocate the DUT, it will not be allocated to any "nodeslot", and the "feature_count" is reset to 0. (do NOT use this often)
+    - "adjacency_write": you instruct the DUT to load data into the "adjacency queue". You have to provide the "nodeslot". The number of items loaded is equal to "neighbour_count" divided by 16, rounded up. "neighbour_count" should be at least 1.
+    - "message_write": you instruct the DUT to load data into the "adjacency queue". You have to provide the "nodeslot". The number of items loaded is equal to "neighbour_count" divided by 16, rounded up, multiplied by the "feature_count".
+    - "scale_write": you instruct the DUT to load data into the "scale factor queue". You have to provide the "nodeslot". The number of items loaded is equal to "neighbour_count".
+ONLY USE THE ABOVE MENTIONED STRINGS IN YOUR INSTRUCTIONS
+- You need to cover each of the following bins with your commands (an overflow occurs on a queue if the previous instruction tried to load more data on the queue than its depth):
+---
+    - adj_dealloc - the DUT is instructed to load the "adjacency queue", but the DUT was not allocated a "nodeslot"
+    - mess_dealloc - the DUT is instructed to load the "message queue", but the DUT was not allocated a "nodeslot"
+    - scale_dealloc - the DUT is instructed to load the "scale factor queue", but the DUT was not allocated a "nodeslot"
+    - adj_nomatch - the DUT is instructed to load the "adjacency queue", but the "nodeslot" provided for this command does not match the "nodeslot" allocated to the DUT
+    - mess_nomatch - the DUT is instructed to load the "message queue", but the "nodeslot" provided for this command does not match the "nodeslot" allocated to the DUT
+    - scale_nomatch - the DUT is instructed to load the "scale factor queue", but the "nodeslot" provided for this command does not match the "nodeslot" allocated to the DUT
+    - mess_fetch_adj_nopartial - the DUT is instructed to load the "message queue", and there is no overflow on the "adjacency queue"
+    - mess_fetch_adj_partial - the DUT is instructed to load the "message queue", and there is overflow on the "adjacency queue"
+    - mess_seen - data is loaded on the "message queue"
+    - scale_seen - data is loaded on the "scale queue"
+---

@@ -1,0 +1,33 @@
+- You provide a list of lists, in the format: [[int, int, int, int, int, int, int], [int, int, int, int, int, int, int], ...]. The internal lists will be interpreted as sequential instructions for a DUT.
+- The DUT has two main parts:
+        - Weight banks: fetch and output weights for a graph neural network. There is a different weight bank for different weight precisions (for example: float_32)
+        - Feature bank: contains several "fetch tags". Each fetch tag can be assigned to fetch data for a specific node. The three types of fetches that can be performed on each fetch tag are:
+            - Adjacency: fetches the adjacency matrix for the assigned node
+            - Messages: fetches the incoming messages for a node, based on the adjacency data
+            - Scale factors: can be fetched independent of the other two types of data
+            There three queues in each fetch tag: an "adjacency queue" (depth: 64), a "message queue" (depth: 4096), and a "scale factor queue" (depth: 64)
+- Each sublist will be interpreted as an instruction:
+    - First integer: opcode. Possible values:
+        0: fetch weights
+        1: fetch the adjacency list
+        2: fetch the messages
+        3: fetch the scale factors
+    - Second integer: start address. Irrevelant for us, can be any value.
+    - Third integer: defines the amount of weights that need to be fetched. Irrevelant for us, can be any value.
+    - Fourth integer: also defines the amount of weights that need to be fetched. Irrevelant for us, can be any value.
+    - Fifth integer: nodeslot. The ID of the node you want to fetch data for (adjacency list, messages or scale factors). When fetching an adjacency list for a node,
+    a fetch tag is assigned to that node ID. Only after a node ID has been assigned to a fetch tag is it possible to fetch messages or scale factors for that node.
+    The weight banks do not need node IDs, so this number is irrelevant for fetching weights (opcode 0).
+    - Sixth integer: precision ID. Defines what precision weights are to be collected (and thus, which weight bank needs to be used). Irrelevant for anything other than
+    fetching weights. Currently only one precision is implemented, so this number should always be 1.
+    - Seventh integer: neighbour count. When opcode is 1 (fetching the adjacency list), the number of items loaded on the adjacency queue is equal to the neighbour count divided by 16, rounded up.
+- You need to cover each of the following bins with your commands (an overflow occurs on a queue if the previous instruction tried to load more data on the queue than its depth):
+---
+    - adjacency_list_partial: the adjacency queue of a fetch tag is overflowing
+    - adjacency_list_nopartial: the adjacency queue of a fetch tag is not overflowing after it was instructed to fetch adjacency data
+    - messages_partial: the message queue of a fetch tag is overflowing
+    - messages_nopartial: the message queue of a fetch tag is not overflowing after it was instructed to fetch messages
+    - scale_factor_partial: the scale factor queue of a fetch tag is overflowing
+    - scale_factor_nopartial: the scale factor queue of a fetch tag is not overflowing after it was instructed to fetch scale factors
+    - weights_i: the weight bank corresponding to precision ID i has collected the weights
+---

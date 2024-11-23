@@ -1,0 +1,16 @@
+
+[options]
+mode cover
+depth 1
+vcd off
+timeout 172800
+
+[engines]
+smtbmc
+
+[script]
+read -formal stride_detector.sv
+prep -top stride_detector
+
+[files]
+stride_detector.sv

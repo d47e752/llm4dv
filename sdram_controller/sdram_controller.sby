@@ -1,0 +1,19 @@
+
+[tasks]
+cover
+
+[options]
+cover: mode cover
+cover: depth 50
+cover: vcd off
+
+[engines]
+cover: smtbmc
+
+[script]
+read -formal sdram_controller.sv
+
+prep -top sdram_controller
+
+[files]
+src/sdram_controller.sv

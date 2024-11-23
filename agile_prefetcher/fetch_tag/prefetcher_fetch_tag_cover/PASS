@@ -1,0 +1,46 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:01:01 (61)
+Elapsed process time [H:MM:SS (secs)]: 0:01:22 (82)
+engine_0 (btor btormc) returned pass
+cover trace: <trace0>
+  reached cover statement prefetcher_fetch_tag.\req_adj_write.adj_dealloc at prefetcher_fetch_tag.sv:536.21-536.51 in step 2
+cover trace: <trace1>
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_dealloc at prefetcher_fetch_tag.sv:542.21-542.52 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_fetch_adj_partial at prefetcher_fetch_tag.sv:540.21-540.93 in step 2
+cover trace: <trace2>
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_dealloc at prefetcher_fetch_tag.sv:542.21-542.52 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_fetch_adj_partial at prefetcher_fetch_tag.sv:540.21-540.93 in step 2
+cover trace: <trace3>
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in step 2
+cover trace: <trace4>
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in step 2
+cover trace: <trace5>
+  reached cover statement prefetcher_fetch_tag.\req_adj_write.adj_nomatch at prefetcher_fetch_tag.sv:537.21-537.108 in step 3
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in step 2
+cover trace: <trace6>
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_fetch_adj_partial at prefetcher_fetch_tag.sv:540.21-540.93 in step 3
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_nomatch at prefetcher_fetch_tag.sv:543.21-543.109 in step 3
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in step 2
+cover trace: <trace7>
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_nomatch at prefetcher_fetch_tag.sv:549.21-549.110 in step 3
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in steps 2, 3
+cover trace: <trace8>
+  reached cover statement prefetcher_fetch_tag.\req_adj_write.adj_nomatch at prefetcher_fetch_tag.sv:537.21-537.108 in step 3
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_fetch_adj_partial at prefetcher_fetch_tag.sv:540.21-540.93 in steps 4, 7, 10
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_nomatch at prefetcher_fetch_tag.sv:543.21-543.109 in steps 4, 10
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_seen at prefetcher_fetch_tag.sv:545.25-545.46 in step 10
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_nomatch at prefetcher_fetch_tag.sv:549.21-549.110 in step 5
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in steps 2, 5
+cover trace: <trace9>
+  reached cover statement prefetcher_fetch_tag.\req_adj_write.adj_nomatch at prefetcher_fetch_tag.sv:537.21-537.108 in steps 3, 55
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_fetch_adj_nopartial at prefetcher_fetch_tag.sv:539.21-539.94 in step 76
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_fetch_adj_partial at prefetcher_fetch_tag.sv:540.21-540.93 in steps 7, 45
+  reached cover statement prefetcher_fetch_tag.\req_message_write.mess_nomatch at prefetcher_fetch_tag.sv:543.21-543.109 in steps 7, 76
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_dealloc at prefetcher_fetch_tag.sv:548.21-548.53 in step 2
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_nomatch at prefetcher_fetch_tag.sv:549.21-549.110 in steps 4, 5
+  reached cover statement prefetcher_fetch_tag.\req_scale_write.scale_seen at prefetcher_fetch_tag.sv:554.25-554.47 in steps 2, 4

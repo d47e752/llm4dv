@@ -1,0 +1,2132 @@
+Elapsed clock time [H:MM:SS (secs)]: 0:24:35 (1475)
+Elapsed process time [H:MM:SS (secs)]: 0:33:21 (2001)
+engine_0 (smtbmc) returned FAIL
+cover trace: <trace0>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_9 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_9 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace10>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_3 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace100>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_90 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1000>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_745 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1001>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_73 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1002>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_713 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1003>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_681 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1004>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_649 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1005>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_617 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1006>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_585 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1007>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_553 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1008>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_521 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1009>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_489 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace101>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_890 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1010>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_457 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1011>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_425 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1012>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_41 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1013>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_393 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1014>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_361 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1015>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_329 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1016>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_297 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1017>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_265 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1018>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_233 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1019>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_201 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace102>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_858 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1020>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_169 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1021>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_137 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1022>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_105 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1023>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1001 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1024>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_993 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1025>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_97 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1026>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_961 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1027>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_929 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1028>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_897 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1029>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_865 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace103>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_826 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1030>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_833 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1031>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_801 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1032>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_769 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1033>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_737 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1034>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_705 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1035>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_673 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1036>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_65 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1037>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_641 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1038>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_609 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1039>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_577 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace104>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_794 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1040>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_545 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1041>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_513 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1042>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_481 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1043>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_449 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1044>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_417 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1045>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_385 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1046>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_353 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1047>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_33 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1048>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_321 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1049>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_289 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace105>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_762 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1050>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_257 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1051>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_225 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1052>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_193 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1053>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_161 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1054>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_129 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1055>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1056>
+  reached cover statement stride_detector.single_stride_n_overflow at stride_detector.sv:193.5-193.90 in step 0
+cover trace: <trace1057>
+  reached cover statement stride_detector.single_stride_p_overflow at stride_detector.sv:194.5-194.90 in step 0
+cover trace: <trace1058>
+  reached cover statement stride_detector.double_stride_pn_overflow at stride_detector.sv:202.5-202.116 in step 0
+cover trace: <trace1059>
+  reached cover statement stride_detector.double_stride_nn_overflow at stride_detector.sv:200.5-200.116 in step 0
+cover trace: <trace106>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_730 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace1060>
+  reached cover statement stride_detector.double_stride_pp_overflow at stride_detector.sv:203.5-203.116 in step 0
+cover trace: <trace1061>
+  reached cover statement stride_detector.double_stride_np_overflow at stride_detector.sv:201.5-201.116 in step 0
+cover trace: <trace107>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_698 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace108>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_666 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace109>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_634 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace11>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_29 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace110>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_602 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace111>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_58 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace112>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_570 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace113>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_538 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace114>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_506 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace115>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_474 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace116>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_442 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace117>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_410 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace118>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_378 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace119>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_346 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace12>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_28 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace120>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_314 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace121>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_282 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace122>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_26 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace123>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_250 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace124>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_218 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace125>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_186 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace126>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_154 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace127>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_122 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace128>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1018 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace129>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_970 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace13>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_27 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace130>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_938 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace131>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_906 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace132>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_874 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace133>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_842 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace134>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_810 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace135>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_778 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace136>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_746 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace137>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_74 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace138>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_714 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace139>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_682 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace14>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_26 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace140>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_650 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace141>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_618 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace142>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_586 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace143>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_554 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace144>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_522 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace145>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_490 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace146>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_458 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace147>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_426 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace148>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_42 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace149>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_394 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace15>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_25 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace150>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_362 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace151>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_330 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace152>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_298 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace153>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_266 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace154>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_234 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace155>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_202 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace156>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_170 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace157>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_138 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace158>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_106 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace159>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1002 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace16>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_24 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace160>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_10 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace161>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_990 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace162>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_958 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace163>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_94 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace164>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_926 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace165>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_894 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace166>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_862 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace167>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_830 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace168>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_798 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace169>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_766 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace17>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_23 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace170>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_734 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace171>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_702 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace172>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_670 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace173>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_638 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace174>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_62 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace175>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_606 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace176>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_574 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace177>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_542 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace178>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_510 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace179>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_478 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace18>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_22 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace180>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_446 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace181>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_414 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace182>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_382 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace183>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_350 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace184>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_318 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace185>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_30 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace186>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_286 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace187>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_254 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace188>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_222 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace189>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_190 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace19>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_21 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace190>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_158 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace191>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_126 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace192>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1022 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace193>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_998 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace194>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_966 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace195>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_934 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace196>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_902 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace197>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_870 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace198>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_838 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace199>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_806 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace2>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_8 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace20>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_20 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace200>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_774 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace201>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_742 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace202>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_710 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace203>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_70 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace204>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_678 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace205>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_646 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace206>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_614 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace207>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_6 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace208>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_582 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace209>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_550 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace21>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_2 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace210>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_518 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace211>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_486 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace212>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_454 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace213>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_422 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace214>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_390 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace215>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_38 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace216>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_358 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace217>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_326 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace218>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_294 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace219>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_262 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace22>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_19 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace220>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_230 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace221>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_198 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace222>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_166 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace223>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_134 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace224>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_102 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace225>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_982 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace226>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_950 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace227>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_918 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace228>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_886 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace229>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_86 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace23>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_18 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace230>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_854 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace231>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_822 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace232>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_790 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace233>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_758 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace234>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_726 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace235>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_694 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace236>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_662 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace237>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_630 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace238>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_598 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace239>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_566 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace24>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_17 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace240>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_54 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace241>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_534 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace242>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_502 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace243>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_470 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace244>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_438 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace245>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_406 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace246>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_374 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace247>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_342 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace248>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_310 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace249>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_278 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace25>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_16 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace250>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_246 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace251>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_22 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace252>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_214 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace253>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_182 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace254>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_150 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace255>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_118 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace256>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1014 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace257>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_974 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace258>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_942 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace259>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_910 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace26>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_15 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace260>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_878 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace261>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_846 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace262>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_814 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace263>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_782 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace264>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_78 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace265>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_750 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace266>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_718 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace267>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_686 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace268>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_654 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace269>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_622 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace27>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_14 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace270>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_590 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace271>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_558 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace272>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_526 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace273>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_494 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace274>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_462 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace275>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_46 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace276>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_430 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace277>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_398 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace278>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_366 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace279>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_334 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace28>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_13 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace280>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_302 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace281>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_270 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace282>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_238 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace283>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_206 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace284>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_174 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace285>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_142 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace286>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_14 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace287>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_110 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace288>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1006 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace289>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_992 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace29>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_12 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace290>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_960 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace291>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_96 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace292>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_928 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace293>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_896 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace294>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_864 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace295>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_832 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace296>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_800 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace297>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_768 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace298>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_736 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace299>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_704 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace3>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_7 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace30>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_11 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace300>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_672 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace301>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_640 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace302>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_64 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace303>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_608 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace304>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_576 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace305>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_544 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace306>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_512 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace307>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_480 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace308>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_448 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace309>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_416 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace31>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_10 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace310>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_384 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace311>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_352 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace312>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_320 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace313>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_32 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace314>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_288 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace315>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_256 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace316>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_224 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace317>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_192 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace318>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_160 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace319>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_128 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace32>
+  reached cover statement stride_detector.\stride_values.stride_1_seen at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace320>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1024 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace321>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_988 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace322>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_956 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace323>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_924 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace324>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_92 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace325>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_892 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace326>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_860 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace327>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_828 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace328>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_796 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace329>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_764 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace33>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_2 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace330>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_732 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace331>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_700 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace332>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_668 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace333>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_636 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace334>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_604 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace335>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_60 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace336>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_572 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace337>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_540 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace338>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_508 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace339>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_476 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace34>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_962 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace340>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_444 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace341>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_412 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace342>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_380 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace343>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_348 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace344>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_316 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace345>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_284 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace346>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_28 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace347>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_252 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace348>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_220 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace349>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_188 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace35>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_898 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace350>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_156 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace351>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_124 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace352>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1020 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace353>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_984 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace354>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_952 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace355>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_920 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace356>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_888 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace357>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_88 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace358>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_856 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace359>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_824 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace36>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_834 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace360>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_792 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace361>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_760 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace362>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_728 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace363>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_696 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace364>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_664 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace365>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_632 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace366>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_600 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace367>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_568 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace368>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_56 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace369>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_536 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace37>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_770 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace370>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_504 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace371>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_472 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace372>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_440 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace373>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_408 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace374>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_376 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace375>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_344 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace376>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_312 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace377>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_280 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace378>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_248 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace379>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_24 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace38>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_706 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace380>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_216 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace381>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_184 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace382>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_152 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace383>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_120 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace384>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1016 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace385>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_980 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace386>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_948 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace387>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_916 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace388>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_884 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace389>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_852 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace39>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_66 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace390>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_84 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace391>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_820 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace392>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_788 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace393>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_756 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace394>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_724 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace395>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_692 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace396>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_660 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace397>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_628 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace398>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_596 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace399>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_564 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace4>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_6 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace40>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_642 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace400>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_532 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace401>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_52 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace402>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_500 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace403>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_468 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace404>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_436 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace405>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_404 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace406>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_372 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace407>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_340 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace408>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_308 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace409>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_276 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace41>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_578 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace410>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_244 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace411>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_212 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace412>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_20 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace413>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_180 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace414>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_148 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace415>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_116 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace416>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1012 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace417>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_976 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace418>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_944 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace419>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_912 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace42>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_514 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace420>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_880 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace421>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_848 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace422>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_816 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace423>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_80 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace424>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_784 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace425>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_752 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace426>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_720 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace427>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_688 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace428>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_656 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace429>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_624 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace43>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_258 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace430>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_592 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace431>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_560 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace432>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_528 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace433>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_496 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace434>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_48 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace435>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_464 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace436>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_432 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace437>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_400 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace438>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_368 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace439>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_336 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace44>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_386 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace440>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_304 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace441>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_272 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace442>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_240 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace443>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_208 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace444>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_176 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace445>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_16 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace446>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_144 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace447>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_112 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace448>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1008 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace449>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_972 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace45>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_130 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace450>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_940 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace451>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_908 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace452>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_876 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace453>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_844 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace454>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_812 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace455>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_780 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace456>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_76 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace457>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_748 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace458>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_716 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace459>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_684 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace46>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_450 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace460>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_652 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace461>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_620 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace462>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_588 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace463>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_556 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace464>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_524 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace465>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_492 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace466>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_460 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace467>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_44 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace468>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_428 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace469>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_396 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace47>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_322 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace470>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_364 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace471>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_332 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace472>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_300 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace473>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_268 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace474>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_236 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace475>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_204 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace476>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_172 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace477>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_140 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace478>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_12 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace479>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_108 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace48>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_194 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace480>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1004 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace481>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_968 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace482>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_936 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace483>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_904 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace484>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_872 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace485>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_840 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace486>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_808 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace487>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_8 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace488>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_776 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace489>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_744 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace49>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_994 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace490>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_72 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace491>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_712 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace492>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_680 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace493>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_648 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace494>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_616 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace495>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_584 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace496>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_552 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace497>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_520 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace498>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_488 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace499>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_456 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace5>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_5 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace50>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_930 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace500>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_424 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace501>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_40 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace502>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_392 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace503>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_360 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace504>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_328 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace505>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_296 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace506>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_264 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace507>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_232 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace508>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_200 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace509>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_168 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace51>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_866 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace510>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_136 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace511>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_104 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace512>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1000 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace513>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_996 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace514>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_964 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace515>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_932 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace516>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_900 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace517>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_868 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace518>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_836 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace519>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_804 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace52>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_802 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace520>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_772 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace521>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_740 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace522>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_708 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace523>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_68 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace524>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_676 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace525>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_644 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace526>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_612 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace527>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_580 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace528>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_548 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace529>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_516 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace53>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_738 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace530>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_484 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace531>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_452 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace532>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_420 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace533>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_4 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace534>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_388 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace535>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_36 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace536>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_356 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace537>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_324 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace538>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_292 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace539>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_260 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace54>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_674 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace540>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_228 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace541>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_196 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace542>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_164 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace543>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_132 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace544>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_100 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace545>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_995 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace546>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_99 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace547>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_963 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace548>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_931 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace549>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_899 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace55>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_610 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace550>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_867 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace551>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_835 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace552>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_803 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace553>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_771 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace554>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_739 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace555>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_707 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace556>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_675 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace557>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_67 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace558>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_643 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace559>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_611 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace56>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_546 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace560>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_579 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace561>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_547 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace562>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_515 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace563>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_483 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace564>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_451 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace565>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_419 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace566>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_387 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace567>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_355 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace568>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_35 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace569>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_323 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace57>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_482 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace570>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_3 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace571>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_291 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace572>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_259 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace573>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_227 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace574>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_195 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace575>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_163 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace576>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_131 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace577>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_999 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace578>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_967 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace579>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_935 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace58>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_418 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace580>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_903 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace581>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_871 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace582>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_839 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace583>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_807 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace584>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_775 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace585>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_743 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace586>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_711 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace587>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_71 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace588>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_7 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace589>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_679 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace59>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_354 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace590>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_647 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace591>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_615 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace592>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_583 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace593>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_551 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace594>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_519 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace595>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_487 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace596>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_455 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace597>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_423 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace598>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_391 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace599>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_39 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace6>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_4 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace60>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_34 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace600>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_359 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace601>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_327 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace602>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_295 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace603>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_263 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace604>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_231 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace605>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_199 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace606>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_167 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace607>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_135 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace608>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_103 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace609>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_991 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace61>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_290 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace610>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_959 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace611>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_95 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace612>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_927 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace613>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_895 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace614>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_863 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace615>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_831 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace616>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_799 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace617>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_767 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace618>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_735 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace619>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_703 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace62>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_226 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace620>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_671 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace621>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_639 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace622>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_63 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace623>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_607 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace624>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_575 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace625>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_543 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace626>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_511 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace627>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_479 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace628>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_447 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace629>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_415 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace63>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_162 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace630>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_383 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace631>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_351 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace632>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_319 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace633>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_31 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace634>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_287 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace635>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_255 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace636>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_223 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace637>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_191 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace638>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_159 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace639>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_127 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace64>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_98 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace640>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1023 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace641>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_989 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace642>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_957 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace643>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_93 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace644>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_925 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace645>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_893 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace646>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_861 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace647>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_829 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace648>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_797 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace649>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_765 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace65>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_978 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace650>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_733 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace651>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_701 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace652>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_669 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace653>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_637 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace654>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_61 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace655>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_605 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace656>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_573 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace657>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_541 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace658>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_509 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace659>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_477 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace66>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_946 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace660>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_445 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace661>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_413 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace662>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_381 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace663>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_349 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace664>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_317 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace665>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_29 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace666>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_285 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace667>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_253 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace668>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_221 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace669>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_189 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace67>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_914 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace670>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_157 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace671>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_125 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace672>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1021 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace673>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_987 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace674>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_955 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace675>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_923 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace676>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_91 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace677>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_891 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace678>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_859 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace679>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_827 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace68>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_882 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace680>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_795 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace681>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_763 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace682>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_731 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace683>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_699 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace684>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_667 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace685>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_635 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace686>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_603 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace687>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_59 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace688>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_571 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace689>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_539 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace69>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_850 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace690>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_507 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace691>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_475 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace692>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_443 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace693>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_411 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace694>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_379 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace695>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_347 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace696>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_315 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace697>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_283 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace698>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_27 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace699>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_251 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace7>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_32 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace70>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_82 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace700>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_219 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace701>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_187 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace702>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_155 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace703>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_123 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace704>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1019 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace705>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_985 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace706>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_953 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace707>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_921 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace708>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_89 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace709>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_889 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace71>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_818 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace710>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_857 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace711>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_825 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace712>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_793 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace713>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_761 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace714>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_729 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace715>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_697 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace716>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_665 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace717>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_633 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace718>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_601 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace719>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_57 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace72>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_786 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace720>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_569 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace721>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_537 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace722>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_505 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace723>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_473 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace724>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_441 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace725>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_409 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace726>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_377 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace727>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_345 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace728>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_313 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace729>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_281 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace73>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_754 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace730>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_25 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace731>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_249 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace732>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_217 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace733>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_185 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace734>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_153 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace735>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_121 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace736>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1017 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace737>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_983 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace738>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_951 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace739>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_919 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace74>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_722 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace740>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_887 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace741>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_87 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace742>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_855 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace743>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_823 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace744>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_791 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace745>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_759 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace746>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_727 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace747>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_695 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace748>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_663 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace749>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_631 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace75>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_690 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace750>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_599 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace751>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_567 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace752>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_55 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace753>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_535 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace754>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_503 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace755>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_471 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace756>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_439 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace757>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_407 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace758>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_375 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace759>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_343 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace76>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_658 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace760>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_311 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace761>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_279 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace762>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_247 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace763>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_23 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace764>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_215 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace765>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_183 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace766>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_151 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace767>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_119 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace768>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1015 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace769>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_981 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace77>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_626 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace770>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_949 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace771>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_917 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace772>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_885 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace773>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_853 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace774>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_85 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace775>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_821 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace776>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_789 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace777>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_757 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace778>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_725 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace779>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_693 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace78>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_594 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace780>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_661 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace781>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_629 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace782>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_597 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace783>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_565 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace784>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_533 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace785>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_53 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace786>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_501 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace787>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_469 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace788>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_437 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace789>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_405 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace79>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_562 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace790>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_373 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace791>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_341 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace792>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_309 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace793>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_277 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace794>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_245 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace795>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_213 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace796>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_21 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace797>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_181 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace798>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_149 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace799>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_117 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace8>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_31 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace80>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_530 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace800>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1013 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace801>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_979 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace802>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_947 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace803>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_915 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace804>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_883 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace805>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_851 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace806>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_83 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace807>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_819 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace808>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_787 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace809>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_755 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace81>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_50 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace810>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_723 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace811>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_691 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace812>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_659 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace813>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_627 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace814>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_595 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace815>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_563 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace816>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_531 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace817>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_51 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace818>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_499 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace819>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_467 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace82>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_498 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace820>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_435 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace821>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_403 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace822>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_371 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace823>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_339 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace824>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_307 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace825>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_275 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace826>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_243 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace827>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_211 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace828>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_19 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace829>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_179 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace83>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_466 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace830>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_147 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace831>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_115 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace832>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1011 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace833>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_997 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace834>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_965 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace835>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_933 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace836>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_901 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace837>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_869 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace838>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_837 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace839>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_805 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace84>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_434 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace840>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_773 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace841>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_741 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace842>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_709 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace843>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_69 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace844>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_677 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace845>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_645 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace846>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_613 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace847>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_581 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace848>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_549 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace849>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_517 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace85>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_402 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace850>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_5 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace851>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_485 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace852>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_453 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace853>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_421 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace854>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_389 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace855>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_37 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace856>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_357 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace857>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_325 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace858>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_293 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace859>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_261 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace86>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_370 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace860>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_229 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace861>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_197 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace862>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_165 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace863>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_133 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace864>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_101 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace865>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_977 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace866>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_945 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace867>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_913 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace868>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_881 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace869>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_849 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace87>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_338 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace870>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_817 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace871>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_81 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace872>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_785 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace873>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_753 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace874>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_721 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace875>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_689 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace876>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_657 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace877>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_625 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace878>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_593 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace879>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_561 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace88>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_306 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace880>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_529 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace881>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_497 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace882>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_49 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace883>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_465 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace884>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_433 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace885>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_401 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace886>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_369 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace887>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_337 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace888>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_305 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace889>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_273 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace89>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_274 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace890>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_241 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace891>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_209 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace892>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_177 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace893>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_17 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace894>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_145 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace895>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_113 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace896>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1009 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace897>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_975 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace898>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_943 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace899>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_911 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace9>
+  reached cover statement stride_detector.\stride_values.stride_1_seen_30 at stride_detector.sv:187.7-187.89 in step 0
+cover trace: <trace90>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_242 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace900>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_879 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace901>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_847 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace902>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_815 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace903>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_79 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace904>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_783 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace905>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_751 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace906>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_719 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace907>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_687 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace908>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_655 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace909>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_623 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace91>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_210 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace910>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_591 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace911>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_559 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace912>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_527 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace913>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_495 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace914>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_47 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace915>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_463 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace916>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_431 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace917>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_399 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace918>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_367 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace919>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_335 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace92>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_18 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace920>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_303 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace921>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_271 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace922>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_239 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace923>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_207 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace924>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_175 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace925>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_15 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace926>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_143 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace927>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_111 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace928>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1007 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace929>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_973 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace93>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_178 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace930>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_941 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace931>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_909 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace932>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_877 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace933>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_845 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace934>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_813 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace935>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_781 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace936>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_77 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace937>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_749 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace938>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_717 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace939>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_685 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace94>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_146 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace940>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_653 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace941>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_621 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace942>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_589 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace943>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_557 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace944>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_525 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace945>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_493 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace946>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_461 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace947>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_45 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace948>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_429 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace949>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_397 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace95>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_114 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace950>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_365 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace951>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_333 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace952>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_301 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace953>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_269 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace954>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_237 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace955>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_205 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace956>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_173 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace957>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_141 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace958>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_13 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace959>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_109 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace96>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1010 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace960>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1005 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace961>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_971 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace962>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_939 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace963>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_907 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace964>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_875 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace965>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_843 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace966>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_811 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace967>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_779 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace968>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_75 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace969>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_747 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace97>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_986 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace970>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_715 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace971>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_683 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace972>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_651 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace973>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_619 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace974>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_587 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace975>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_555 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace976>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_523 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace977>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_491 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace978>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_459 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace979>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_43 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace98>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_954 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace980>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_427 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace981>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_395 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace982>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_363 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace983>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_331 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace984>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_299 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace985>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_267 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace986>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_235 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace987>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_203 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace988>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_171 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace989>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_139 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace99>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_922 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace990>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_11 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace991>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_107 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace992>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_1003 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace993>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_969 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace994>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_937 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace995>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_905 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace996>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_873 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace997>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_841 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace998>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_809 at stride_detector.sv:189.9-189.108 in step 0
+cover trace: <trace999>
+  reached cover statement stride_detector.\stride_values.stride_values_2.stride_2_seen_777 at stride_detector.sv:189.9-189.108 in step 0
+unreached cover statements:
+  stride_detector.double_stride_to_single at stride_detector.sv:197.5-197.139
+  stride_detector.no_stride_to_double at stride_detector.sv:205.5-205.179
+  stride_detector.no_stride_to_single at stride_detector.sv:196.5-196.131
+  stride_detector.single_stride_to_double at stride_detector.sv:206.5-206.187

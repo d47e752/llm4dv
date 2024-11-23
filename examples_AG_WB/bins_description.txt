@@ -1,0 +1,10 @@
+- You provide pairs of integers.
+- The output of the DUT is the contents of it's FIFO, which is sent diagonally (i.e. one unit of data is sent from the first row, then from both the first and second, then first, second and third etc.).
+- The actual data content of the FIFO is not important. Instead, we are interested in the "dimensions" of the output (what is the maximum number of rows accessed simultaneously, and how many units of data are sent from each row).
+- The first integer in the integer pairs you send defines how many units of data is loaded on each row, and the second defines how many rows of the FIFO are loaded with valid data.
+- For each of the following bins, you need to provide at least one integer pair that satisfies it (i can take a value from 1 to 64, j from 1 to 4):
+---
+    - in_i - i*16 units of data is loaded on each row - due to how the device works, only multiples of 16 can be loaded on each row. If you provide a number that is not divisible by 16, it will be rounded up inside the hardware.
+    - out_j - j number of rows were loaded with valid data, hence j is the maximum number of rows accessed simultaneously
+    - combined_features_i_j - i*16 units of data is loaded on each row and j number of rows were loaded with valid data
+---

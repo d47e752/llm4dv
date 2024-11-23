@@ -1,0 +1,18 @@
+- You provide a list of lists, in the format: [[int, int, int], [int, int, int], ...]
+- The DUT is an SDRAM controller (without burst support)
+- The two integers in each list correspond to two input signal to the SDRAM controller:
+    - First integer: write enable.
+    - Second integer: read enable.
+    - Third integer: reset. It is not advised to reset the design regularly.
+- At least one clock cycle will pass between writing the inner lists on the inputs.
+- Other inputs, such as address and data are not important, you will not provide these.
+- The coverage bins are the possible commands the SDRAM controller can generate for the SDRAM. You need to cover each of the following bins with your commands:
+---
+    - precharge: deactivate (close) the current row of all banks
+    - auto_refresh: refresh one row of each bank, using an internal counter. All banks must be precharged.
+    - command_inhibit: command inhibit (no operation)
+    - load_mode_register: configure the DRAM chip
+    - activate: open a row for read and write commands
+    - read: read data from the currently active row
+    - write: write data to the currently active row
+---
